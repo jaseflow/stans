@@ -1,3 +1,14 @@
+
+@-webkit-keyframes cycle {
+  50% {
+    -webkit-transform: translateY(-50%);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+  }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -80,11 +91,7 @@ body,
 }
 
 .bar__canvas {
-  -webkit-transition: -webkit-transform 0.5s 0.5s ease;
-}
-
-.bar__canvas--switch {
-  -webkit-transform: translateY(-50%);
+  -webkit-animation: cycle 5s 0.25s 5s ease infinite;
 }
 
 .user__action {
@@ -103,7 +110,6 @@ body,
 }
 
 .user:after {
-  -webkit-transform: scale(1.2);
   -webkit-transition: -webkit-transform 5s ease;
   content: '';
   display: block;
@@ -112,10 +118,10 @@ body,
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('/img/big-krit.jpg');
+  background: url('/img/bluechips2.jpg');
   background-size: cover;
   background-position: center;
-  opacity: 0.35;
+  opacity: 0.15;
 }
 
 .recent {
@@ -207,6 +213,10 @@ body,
   border-top: 1px solid #ddd;
   background-color: #fff;
   display: flex;
+}
+
+.recent__item:last-child {
+  border-bottom: 1px solid #ddd;
 }
 
 .recent__tally {
@@ -351,6 +361,7 @@ body,
   .recent {
     margin-top: -60px;
     min-width: 320px;
+    box-shadow: -1px 0 2px rgba(0,0,0,0.1);
   }
 
   .recent__nav {
@@ -363,30 +374,6 @@ body,
     cursor: default;
     font-size: 26px;
     margin-bottom: 24px;
-  }
-
-  .user__content:hover .bar__canvas {
-    -webkit-transform: translateY(-50%);
-  }
-
-  .user:hover:after {
-    -webkit-transform: scale(1);
-  }
-
-  .bar__line {
-    -webkit-transition: opacity 1s ease;
-  }
-
-  .bar__line:last-child {
-    opacity: 0;
-  }
-
-  .user__content:hover .bar__line:first-child {
-    opacity: 0;
-  }
-
-  .user__content:hover .bar__line:last-child {
-    opacity: 1;
   }
 
   .cards {
