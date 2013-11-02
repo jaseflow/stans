@@ -124,7 +124,7 @@ body,
   background: url('img/bluechips2.jpg');
   background-size: cover;
   background-position: center;
-  opacity: 0.15;
+  opacity: 0.1;
 }
 
 .recent {
@@ -291,7 +291,7 @@ body,
 }
 
 .card {
-  height: 200px;s
+  height: 200px;
   background-color: #333;
   margin-bottom: 12px;
   background-position: center;
@@ -404,9 +404,65 @@ body,
 
 @media only screen and (min-width: 1200px) {
   
-  .card {
-    flex-basis: calc(33.333333333% - 20px);
+  .app__window {
+    display: flex;
+    overflow:  hidden;
   }
+
+  .user {
+    width: 360px;
+    height: 100%;
+    position: relative;
+    padding: 20px;
+  }
+
+  .user__title {
+    margin-bottom: 12px;
+  }
+
+  .user__content {
+    flex-flow: column;
+    align-items: flex-start;
+    height: 100%;
+    justify-content: flex-start;
+  }
+
+  .user__action {
+    position: absolute;
+    top: auto;
+    right: auto;
+    width: 100%;
+    bottom: 0;
+  }
+
+  .content {
+    position: relative;
+    top: 0;
+  }
+
+  .recent {
+    margin-top: 0;
+  }
+
+  .bar {
+    width: auto;
+    text-align: left;
+  }
+
+  .bar__line:first-child {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
+
+  .bar__line:last-child {
+    font-size: 13px;
+  }
+
+}
+
+@media only screen and (min-width: 1400px) {
+
 
 
 }
