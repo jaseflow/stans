@@ -118,7 +118,7 @@ body,
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('/img/bluechips2.jpg');
+  background: url('img/bluechips2.jpg');
   background-size: cover;
   background-position: center;
   opacity: 0.15;
@@ -239,7 +239,7 @@ body,
 .recent__thumb {
   width: 50px;
   height: 50px;
-  background-image: url(/img/nwts_thumb.jpg);
+  background-image: url(img/nwts_thumb.jpg);
   background-size: cover;
   margin: 10px;
 }
@@ -302,7 +302,7 @@ body,
 }
 
 .card {
-  background-image: url(/img/death-grips.jpg);
+  background-image: url(img/death-grips.jpg);
   background-size: cover;
   position: relative;
 }
@@ -335,7 +335,7 @@ body,
   .content {
     top: 30vh;
     display: flex;
-    flex-flow: row-reverse;
+    flex-flow: row;
     bottom: 0;
   }
 
