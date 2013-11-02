@@ -10,28 +10,24 @@ var setBars = function() {
 
 $(function() {
 
-    FastClick.attach(document.body);
+  FastClick.attach(document.body);
 
-    barLineHeight = $('.bar__line:first-child').height();
+  barLineHeight = $('.bar__line:first-child').height();
 
-    // setBars();
+  // setBars();
 
-   $('.recent__nav a').click(function(e) {
-      e.preventDefault();
-      $('.recent__nav').toggleClass('recent__nav--toggled');
-   });
+  $('.recent__nav a').click(function(e) {
+    e.preventDefault();
+    $('.recent__nav').toggleClass('recent__nav--toggled');
+  });
 
   $('#follow').click(function(e) {
     e.preventDefault();
+    $(this).css('background-color','rgb(0, 143, 255)');
+    $(this).html('<i class="icon-ok"></i> Following')
   });
 
   if (matchMedia(mobile).matches) {
-
-    $('#follow').click(function(e) {
-      e.preventDefault();
-      $(this).css('-webkit-transform','translateY(100px)');
-      $('#content').css('-webkit-transform','translateY(-81px)')
-    });
 
     $('.bar').click(function(e) {
       $('.bar__canvas').toggleClass('bar__canvas--switch')
