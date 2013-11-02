@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"trans",
+				"translateY"
+			],
+			[
+				"transa",
+				"translateZ"
+			],
+			[
+				"webkit-tran",
+				"webkit-transform"
+			],
+			[
+				"b",
+				"bar__canvas"
+			],
+			[
+				"bar",
+				"barLineHeight"
+			],
+			[
 				"webi",
 				"webkit-transform"
 			],
@@ -107,7 +127,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3172,
+				"buffer_size": 12040,
 				"line_ending": "Unix"
 			}
 		},
@@ -115,18 +135,23 @@
 			"file": "styles.css",
 			"settings":
 			{
-				"buffer_size": 3263,
+				"buffer_size": 7264,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "\nd",
 			"file": "ui.js",
-			"file_size": 0,
-			"file_write_time": 1383303211000000,
 			"settings":
 			{
-				"buffer_size": 2,
+				"buffer_size": 786,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "fastClick.js",
+			"settings":
+			{
+				"buffer_size": 23423,
 				"line_ending": "Unix"
 			}
 		}
@@ -239,9 +264,11 @@
 	},
 	"file_history":
 	[
+		"/Users/jasoncorbett/Sites/stans/fastClick.js",
+		"/Users/jasoncorbett/Sites/stans/matchMedia.js",
+		"/Users/jasoncorbett/Sites/wedding-static/css/styles.css",
 		"/Users/jasoncorbett/Sites/wedding-static/index.html",
 		"/Users/jasoncorbett/Sites/wedding-static/js/entry.js",
-		"/Users/jasoncorbett/Sites/wedding-static/css/styles.css",
 		"/Users/jasoncorbett/Sites/wedding-static/css/animate.css",
 		"/Users/jasoncorbett/Sites/wedding-static/js/jquery.js",
 		"/Users/jasoncorbett/Sites/wedding-static/js/jquery.scrollTo.js",
@@ -364,9 +391,7 @@
 		"/Users/jasoncorbett/Sites/ss-swapsies/server/rpc/app.coffee",
 		"/Users/jasoncorbett/Sites/ss-swapsies/client/code/libs/fastclick.js",
 		"/Users/jasoncorbett/Sites/ss-swapsies/client/css/font-awesome.styl",
-		"/Users/jasoncorbett/Sites/ss-swapsies/node_modules/mocha/node_modules/jade/testing/head.jade",
-		"/Users/jasoncorbett/Sites/ss-swapsies/client/css/font-awesome.styl.css",
-		"/Users/jasoncorbett/Sites/ss-swapsies/client/code/app/profileView.coffee"
+		"/Users/jasoncorbett/Sites/ss-swapsies/node_modules/mocha/node_modules/jade/testing/head.jade"
 	],
 	"find":
 	{
@@ -385,6 +410,63 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"follow",
+			"body {",
+			"user",
+			"recent__tabs",
+			"recent__feed",
+			"recent {",
+			"card {",
+			":after",
+			"0.1",
+			"recent {",
+			"recent__feed",
+			"counter",
+			"content",
+			"count",
+			"counter",
+			"bar",
+			"bars",
+			"/img",
+			"bar__line",
+			"first:child",
+			"recent {",
+			"cards",
+			"sscale",
+			"tally",
+			"<div class=\"recent__thumb\"",
+			"<div class=\"recent__thumb\">",
+			"<div class=\"recent__thumb\">\n                        </div>\n                        <div class=\"recent__deets\">\n                          <h4 class=\"recent__artist\">Drake</h4>\n                          <h5 class=\"recent__album\">Nothing Was The Same</h5>\n                        </div>",
+			"recent {",
+			"user__content:hover",
+			"/img/",
+			"cards {",
+			"card {",
+			"recent {",
+			"content {",
+			"recent_",
+			"recent {",
+			"<div class=\"recent__when\">",
+			"<div class=\"recent__when\">\n                          <p>Playing now</p>\n                        </div>",
+			"recent",
+			"puck {",
+			"recent__active",
+			"user__acti",
+			"recent__nav",
+			"content {",
+			"feed",
+			"bar__canvas",
+			"recent {",
+			"bar__line",
+			"bar__liine",
+			"bar__can",
+			"bar__canvs",
+			"bar__canvs ",
+			"bar__line",
+			"bar {",
+			"user__bar",
+			"content ",
+			"active",
 			"content {",
 			"content",
 			"content {",
@@ -455,64 +537,7 @@
 			"#",
 			"#sidebar",
 			"target",
-			":target",
-			"href",
-			"focus",
-			"target",
-			"focus",
-			"modal--show",
-			"publish",
-			"removeHero",
-			"publish",
-			"removeHero",
-			"subscrib",
-			"upgrade",
-			"removeHero",
-			"hero__action a",
-			"removeher",
-			"modal__face",
-			"publish",
-			"slideOut",
-			"modal--show",
-			"register",
-			"submit",
-			"user__action",
-			"action",
-			"user__action",
-			"publish",
-			"modal--show",
-			"hero ",
-			"hero a",
-			"--show",
-			"modal--show",
-			"loadmodal",
-			"closeModal",
-			"modal--show",
-			"closeModal",
-			"modal--show",
-			"#publish",
-			"publish",
-			"consoles",
-			"search",
-			"consoles",
-			"collections",
-			"body",
-			"swapsy",
-			"login",
-			"currentUser",
-			"mongoose",
-			"mongo",
-			"mongoose",
-			"register",
-			"remove",
-			"cross",
-			"remove",
-			"close",
-			"modal__title",
-			"swapsy",
-			"user",
-			"modal__tip",
-			"modal"
+			":target"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -531,7 +556,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -539,23 +564,25 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 3172,
+						"buffer_size": 12040,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								756,
-								756
+								4764,
+								4764
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1857.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -565,23 +592,25 @@
 					"file": "styles.css",
 					"settings":
 					{
-						"buffer_size": 3263,
+						"buffer_size": 7264,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2484,
-								2484
+								418,
+								420
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2695.0,
+						"translation.y": 166.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -591,15 +620,15 @@
 					"file": "ui.js",
 					"settings":
 					{
-						"buffer_size": 2,
+						"buffer_size": 786,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2,
-								2
+								627,
+								627
 							]
 						],
 						"settings":
@@ -608,6 +637,32 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "fastClick.js",
+					"settings":
+					{
+						"buffer_size": 23423,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22877,
+								22877
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 12793.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -665,6 +720,18 @@
 		"selected_items":
 		[
 			[
+				"styles",
+				"styles.css"
+			],
+			[
+				"styl",
+				"styles.css"
+			],
+			[
+				"fast",
+				"fastClick.js"
+			],
+			[
 				"ui",
 				"ui.js"
 			],
@@ -701,10 +768,6 @@
 				"css/styles.css"
 			],
 			[
-				"styles",
-				"css/styles.css"
-			],
-			[
 				"jquery",
 				"js/jquery.js"
 			],
@@ -719,10 +782,6 @@
 			[
 				"index",
 				"static/index.html"
-			],
-			[
-				"styl",
-				"public/css/styles.styl"
 			],
 			[
 				"indd",
@@ -1171,10 +1230,6 @@
 			[
 				"button",
 				"node_modules/jitsu/node_modules/require-analyzer/node_modules/detective/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/concatstring.js"
-			],
-			[
-				"user",
-				"server/models/user.coffee"
 			]
 		],
 		"width": 0.0

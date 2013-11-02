@@ -17,6 +17,7 @@
 
 body {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  background-color: #555;
 }
 
 a {
@@ -91,11 +92,6 @@ body,
 .bar__artist {
   font-weight: normal;
 }
-
-/*
-.bar__canvas {
-  -webkit-animation: cycle 5s 0.25s 5s ease infinite;
-}*/
 
 .user__action {
   background-color: #FBA617;
@@ -280,6 +276,26 @@ body,
   background-color: #F6F6F6;
   min-height: 500px;
   box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.hero {
+  height: 50vh;
+  background-image: url(img/earl.jpeg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero__caption {
+  background-color: #070707;
+  color: #fff;
+  position: absolute;
+  bottom: 60px;
+  padding: 20px;
+  left: 20px;
+}
+
+.wall__list {
   padding: 20px;
 }
 
@@ -319,8 +335,7 @@ body,
   left: 0;
   right: 0;
   height: 50px;
-  background-color: rgba(0,0,0,0.5);
-  border-top: 1px solid #3B3B3B;
+  background: linear-gradient(rgba(9, 9, 9, 0),black);
   display: flex;
   align-items: center;
   padding: 10px;
@@ -347,7 +362,7 @@ body,
 
   .wall {
     flex: 1;
-    background-color: #eee;
+    background-color: #ddd;
   }
 
   .wall__title {
@@ -358,19 +373,27 @@ body,
     font-size: 32px;
   }
 
+  .user {
+    padding: 20px;
+    height: 30vh;
+  }
+
   .user__content {
-    flex-flow: row;
+    flex-flow: column;
+    align-items: flex-start;
+    height: 100%;
   }
 
   .user__action {
     position: absolute;
-    top: 20px;
+    top: 50px;
     right: 20px;
   }
 
   .recent {
     min-width: 320px;
     box-shadow: -1px 0 2px rgba(0,0,0,0.1);
+    background-color: rgb(235, 235, 235);
   }
 
   .recent__nav {
@@ -380,12 +403,15 @@ body,
 
   .bar {
     cursor: default;
-    font-size: 26px;
+    font-size: 16px;
+    width: auto;
+    text-align: left;
   }
   
   .bar__line:last-child {
     display: block;
     font-weight: 100;
+    font-size: 13px;
   }
 
   .cards {
@@ -400,6 +426,15 @@ body,
     height: 300px;
   }
 
+  .content {
+    position: relative;
+    top: 30vh;
+  }
+
+  .wall {
+    overflow-y: auto;
+  }
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -407,6 +442,7 @@ body,
   .app__window {
     display: flex;
     overflow:  hidden;
+    flex-flow: row;
   }
 
   .user {
@@ -422,47 +458,43 @@ body,
 
   .user__content {
     flex-flow: column;
-    align-items: flex-start;
+    align-items: flex-end;
     height: 100%;
     justify-content: flex-start;
   }
 
   .user__action {
-    position: absolute;
+    position: relative;
     top: auto;
     right: auto;
-    width: 100%;
-    bottom: 0;
   }
 
   .content {
     position: relative;
     top: 0;
+    flex-flow: row-reverse;
   }
 
   .recent {
     margin-top: 0;
+    box-shadow: 1px 0 1px rgba(0,0,0,0.1);
   }
 
   .bar {
-    width: auto;
-    text-align: left;
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
   }
 
   .bar__line:first-child {
     color: #fff;
     font-size: 18px;
-    margin-bottom: 6px;
+    margin-bottom: 12px;
   }
 
   .bar__line:last-child {
     font-size: 13px;
   }
-
-}
-
-@media only screen and (min-width: 1400px) {
-
-
 
 }
