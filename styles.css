@@ -335,7 +335,7 @@ body,
   .content {
     top: 30vh;
     display: flex;
-    flex-flow: row;
+    flex-flow: row-reverse;
     bottom: 0;
   }
 
