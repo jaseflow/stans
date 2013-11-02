@@ -14,7 +14,7 @@ $(function() {
 
     barLineHeight = $('.bar__line:first-child').height();
 
-    setBars();
+    // setBars();
 
    $('.recent__nav a').click(function(e) {
       e.preventDefault();

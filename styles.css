@@ -78,8 +78,12 @@ body,
   text-align: center;
   font-weight: bold;
   text-decoration: underline;
-  overflow: hidden;
   cursor: pointer;
+}
+
+.bar__line:last-child {
+  display: none;
+  font-size: 18px;
 }
 
 .bar__album {
@@ -90,9 +94,10 @@ body,
   font-weight: normal;
 }
 
+/*
 .bar__canvas {
   -webkit-animation: cycle 5s 0.25s 5s ease infinite;
-}
+}*/
 
 .user__action {
   background-color: #FBA617;
@@ -375,6 +380,11 @@ body,
     font-size: 26px;
     margin-bottom: 24px;
   }
+  
+  .bar__line:last-child {
+    display: block;
+    font-weight: 100;
+  }
 
   .cards {
     margin-left: -20px;
@@ -396,8 +406,5 @@ body,
     flex-basis: calc(33.333333333% - 20px);
   }
 
-  .user__hover {
-
-  }
 
 }
