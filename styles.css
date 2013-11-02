@@ -6,6 +6,7 @@
 
 body {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  counter-reset: tally;
 }
 
 a {
@@ -203,10 +204,26 @@ body,
 }
 
 .recent__item {
-  border-top: 1px solid #eee;
+  border-top: 1px solid #ddd;
   background-color: #fff;
   display: flex;
+}
+
+.recent__tally {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
   padding: 10px;
+}
+
+.recent__tally:before {
+  counter-increment: tally;
+  display: block;
+  content: counter(tally);
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .recent__thumb {
@@ -214,6 +231,7 @@ body,
   height: 50px;
   background-image: url(/img/nwts_thumb.jpg);
   background-size: cover;
+  margin: 10px;
 }
 
 .recent__deets {
@@ -222,7 +240,6 @@ body,
   flex-flow: column;
   align-items: flex-start;
   justify-content: center;
-  padding-left: 20px;
 }
 
 .recent__when {
