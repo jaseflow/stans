@@ -1,0 +1,1228 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"webi",
+				"webkit-transform"
+			],
+			[
+				"FF",
+				"FFE144"
+			],
+			[
+				"fff",
+				"FFF690"
+			],
+			[
+				"upgrade",
+				"upgrade-stuff"
+			],
+			[
+				"modal",
+				"modal__face--active"
+			],
+			[
+				"moda-",
+				"modal__face--active"
+			],
+			[
+				"user",
+				"userHeader"
+			],
+			[
+				"swap",
+				"swapsy--hidden"
+			],
+			[
+				"swa",
+				"swapsy--hidden"
+			],
+			[
+				"screen",
+				"screenshot"
+			],
+			[
+				"conso",
+				"consoles__option--active"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"lef",
+				"leftClass"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"hero",
+				"hero__group--active"
+			],
+			[
+				"fad",
+				"fadeInDown"
+			],
+			[
+				"bounceI",
+				"bounceInDown"
+			],
+			[
+				"collec",
+				"collection__item"
+			],
+			[
+				"webkit-trans",
+				"webkit-transition"
+			],
+			[
+				"search",
+				"searchBox"
+			],
+			[
+				"searchBox",
+				"searchBoxClose"
+			],
+			[
+				"searh",
+				"searchBoxClose"
+			],
+			[
+				"menu",
+				"menuClass"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 3172,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "styles.css",
+			"settings":
+			{
+				"buffer_size": 3263,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\nd",
+			"file": "ui.js",
+			"file_size": 0,
+			"file_write_time": 1383303211000000,
+			"settings":
+			{
+				"buffer_size": 2,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 74.0,
+		"selected_items":
+		[
+			[
+				"project",
+				"Project: Save As"
+			],
+			[
+				"tidy",
+				"TidyHTML"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"wordwra",
+				"Word Wrap: Toggle"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wordwr",
+				"Word Wrap: Toggle"
+			],
+			[
+				"word wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				"gist",
+				"Gist: Create Public Gist"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"w",
+				"Word Wrap: Toggle"
+			],
+			[
+				"gitcomm",
+				"Git: Commit"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"wor",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wordw",
+				"Word Wrap: Toggle"
+			],
+			[
+				"jade",
+				"Set Syntax: Jade"
+			],
+			[
+				"jad",
+				"Set Syntax: JavaDoc"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"minimap",
+				"View: Toggle Minimap"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"br",
+				"Preferences: Browse Packages"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 543.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jasoncorbett/Sites/wedding-static/index.html",
+		"/Users/jasoncorbett/Sites/wedding-static/js/entry.js",
+		"/Users/jasoncorbett/Sites/wedding-static/css/styles.css",
+		"/Users/jasoncorbett/Sites/wedding-static/css/animate.css",
+		"/Users/jasoncorbett/Sites/wedding-static/js/jquery.js",
+		"/Users/jasoncorbett/Sites/wedding-static/js/jquery.scrollTo.js",
+		"/Users/jasoncorbett/Sites/wedding-static/js/jquery.nav.js",
+		"/Users/jasoncorbett/Sites/wedding-static/CNAME",
+		"/Users/jasoncorbett/Desktop/wedding.htm",
+		"/Users/jasoncorbett/Sites/wedding/js/entry.coffee",
+		"/Users/jasoncorbett/Sites/wedding/public/css/styles.styl",
+		"/Users/jasoncorbett/Sites/wedding/app.coffee",
+		"/Users/jasoncorbett/Sites/wedding/public/css/animate.css",
+		"/Users/jasoncorbett/Sites/wedding/views/layout.jade",
+		"/Users/jasoncorbett/Sites/wedding/views/index.jade",
+		"/Users/jasoncorbett/Sites/wedding/js/some-module.coffee",
+		"/Users/jasoncorbett/Sites/wedding/package.json",
+		"/Users/jasoncorbett/Sites/swapsy/client/code/libs/jquery.transit.min.js",
+		"/Users/jasoncorbett/Sites/swapsy/client/views/collection.jade",
+		"/Users/jasoncorbett/Sites/swapsy/node_modules/jquery/node_modules/contextify/build/Release/.deps/Release/obj.target/contextify/src/contextify.o.d",
+		"/Users/jasoncorbett/Sites/swapsy/client/css/font-awesome.css",
+		"/Users/jasoncorbett/Sites/swapsy/client/css/font-awesome.styl",
+		"/Users/jasoncorbett/Sites/swapsy/node_modules/ss-stylus/node_modules/.bin/stylus",
+		"/Users/jasoncorbett/Sites/swapsy/client/css/app.styl",
+		"/Users/jasoncorbett/Sites/swapsy/node_modules/everyauth/example/views/login.jade",
+		"/Users/jasoncorbett/Sites/swapsy/app.coffee",
+		"/Users/jasoncorbett/Sites/swapsy/server/models/user.coffee",
+		"/Users/jasoncorbett/Sites/swapsy/node_modules/jitsu/node_modules/require-analyzer/node_modules/detective/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/concatstring.js",
+		"/Users/jasoncorbett/Sites/swapsy/client/templates/game/autocomplete.jade",
+		"/Users/jasoncorbett/Sites/swapsy/client/code/app/jason.coffee",
+		"/Users/jasoncorbett/Sites/swapsy/client/views/app.jade",
+		"/Users/jasoncorbett/Sites/swapsy/client/css/layout.styl",
+		"/Users/jasoncorbett/Sites/swapsy/client/css/variables.styl",
+		"/Users/jasoncorbett/Sites/swapsy/client/css/base.styl",
+		"/Users/jasoncorbett/Sites/swapsy/client/css/collection.styl",
+		"/Users/jasoncorbett/Sites/swapsy/client/css/toolbar.styl",
+		"/Users/jasoncorbett/Sites/swapsy/client/static/animations.css",
+		"/Users/jasoncorbett/Sites/swapsy/client/css/search.styl",
+		"/Users/jasoncorbett/Sites/swapsy/client/code/app/entry.coffee",
+		"/Users/jasoncorbett/Sites/swapsy/client/views/toolbar.jade",
+		"/Users/jasoncorbett/Sites/swapsy/client/code/app/game.coffee",
+		"/Users/jasoncorbett/Sites/swapsy/node_modules/socketstream/node_modules/engine.io/node_modules/ws/test/autobahn-server.js",
+		"/Users/jasoncorbett/Sites/swapsy/node_modules/sqlite3/test/other_objects.test.js",
+		"/Users/jasoncorbett/Sites/swapsy/client/views/landing.jade",
+		"/Users/jasoncorbett/Sites/swapsy/client/css/signup.styl",
+		"/Users/jasoncorbett/Sites/swapsy/client/css/landing.styl",
+		"/Users/jasoncorbett/Sites/swapsy/package.json",
+		"/Users/jasoncorbett/Sites/swapsy/node_modules/everyauth/example/views/layout.jade",
+		"/Users/jasoncorbett/Sites/swapsy/server/rpc/collection.coffee",
+		"/Users/jasoncorbett/Sites/swapsy/client/code/app/fullGameView.coffee",
+		"/Users/jasoncorbett/Sites/swapsy/server/rpc/games.coffee",
+		"/Users/jasoncorbett/Sites/swapsy/client/views/hero.jade",
+		"/Users/jasoncorbett/Sites/swapsy/client/css/logos.styl",
+		"/Users/jasoncorbett/Sites/swapsy/client/css/hero.styl",
+		"/Users/jasoncorbett/Sites/swapsy/node_modules/everyauth/index.js",
+		"/Users/jasoncorbett/Sites/swapsy/client/views/nav.jade",
+		"/Users/jasoncorbett/Sites/swapsy/README.md",
+		"/Users/jasoncorbett/Sites/swapsy/whatisit.md",
+		"/Users/jasoncorbett/Sites/swapsy/s.sublime-workspace",
+		"/Users/jasoncorbett/Sites/swapsy/node_modules/jquery/node_modules/htmlparser/testdata/getelement.html",
+		"/Users/jasoncorbett/Sites/swapsy/node_modules/ss-jade/node_modules/jade/package.json",
+		"/Users/jasoncorbett/Sites/swapsy/node_modules/ss-jade/node_modules/jade/Readme.md",
+		"/Users/jasoncorbett/Sites/swapsy/node_modules/underscore/index.html",
+		"/Users/jasoncorbett/Sites/swapsy/node_modules/ss-hogan/node_modules/hogan.js/wrappers/amd.js.mustache",
+		"/Users/jasoncorbett/Sites/swapsy/client/css/card.styl",
+		"/Users/jasoncorbett/Sites/swapsy/client/views/header.jade",
+		"/Users/jasoncorbett/Sites/swapsy/client/css/nav.styl",
+		"/Users/jasoncorbett/Sites/swapsy/fetch.coffee",
+		"/Users/jasoncorbett/Sites/swapsy/client/css/sidebar.styl",
+		"/Users/jasoncorbett/Sites/swapsy/client/views/sidebar.jade",
+		"/Users/jasoncorbett/Sites/swapsy/client/css/styles.styl",
+		"/Users/jasoncorbett/Sites/swapsy/client/views/layout.jade",
+		"/Users/jasoncorbett/Sites/swapsy/client/css/about.styl",
+		"/Users/jasoncorbett/Sites/swapsy/client/css/footer.styl",
+		"/Users/jasoncorbett/Sites/swapsy/client/css/animations.styl",
+		"/Users/jasoncorbett/Sites/swapsy/client/views/footer.jade",
+		"/Users/jasoncorbett/Sites/swapsy/client/views/about.jade",
+		"/Users/jasoncorbett/Sites/swapsy/public/index.html",
+		"/Users/jasoncorbett/Sites/swapsy/public/landing.js",
+		"/Users/jasoncorbett/Sites/swapsy/public/landing.css",
+		"/Users/jasoncorbett/Sites/swapsy/server/rpc/app.coffee",
+		"/Users/jasoncorbett/Sites/swapsy/mongo.coffee",
+		"/Users/jasoncorbett/Sites/swapsy/public/modernizr.js",
+		"/Users/jasoncorbett/Library/Application Support/Sublime Text 2/Packages/User/Gist.sublime-settings",
+		"/Users/jasoncorbett/Sites/swapsy/node_modules/nrconsole/node_modules/colors/ReadMe.md",
+		"/Users/jasoncorbett/Sites/swapsy/server/middleware/authenticate.coffee",
+		"/Users/jasoncorbett/Sites/swapsy/.nodemonignore",
+		"/Users/jasoncorbett/Sites/swapsy/.gitignore",
+		"/Users/jasoncorbett/Sites/swapsy/public/jquery.min.1.10.2.js",
+		"/Users/jasoncorbett/Sites/ss-swapsies/node_modules/mocha/node_modules/diff/style.css",
+		"/Users/jasoncorbett/Sites/ss-swapsies/todo.md",
+		"/Users/jasoncorbett/Sites/ss-swapsies/node_modules/socketstream/node_modules/clean-css/node_modules/optimist/node_modules/wordwrap/test/idleness.txt",
+		"/Users/jasoncorbett/Sites/ss-swapsies/public/jquery.cycle.js",
+		"/Users/jasoncorbett/Sites/ss-swapsies/node_modules/socketstream/node_modules/connect-redis/node_modules/debug/example/browser.html",
+		"/Users/jasoncorbett/Sites/swapsies/public/styles/styles.less",
+		"/Users/jasoncorbett/Sites/swapsies-app/styles/styles.less",
+		"/Users/jasoncorbett/Sites/ss-swapsies/client/code/landing/entry.coffee",
+		"/Users/jasoncorbett/Sites/ss-swapsies/client/css/landing.styl",
+		"/Users/jasoncorbett/Sites/ss-swapsies/client/css/styles.styl",
+		"/Users/jasoncorbett/Sites/ss-swapsies/app.coffee",
+		"/Users/jasoncorbett/Sites/ss-swapsies/client/views/landing.jade",
+		"/Users/jasoncorbett/Sites/ss-swapsies/public/landing.css",
+		"/Users/jasoncorbett/Sites/ss-swapsies/Procfile",
+		"/Users/jasoncorbett/Sites/ss-swapsies/public/index.html",
+		"/Users/jasoncorbett/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/jasoncorbett/Sites/ss-swapsies/client/views/layout.jade",
+		"/Users/jasoncorbett/Sites/ss-swapsies/client/code/app/jason.coffee",
+		"/Users/jasoncorbett/Sites/ss-swapsies/client/css/font-awesome.css",
+		"/Users/jasoncorbett/Sites/ss-swapsies/client/code/app/fullGameView.coffee",
+		"/Users/jasoncorbett/Sites/ss-swapsies/client/code/app/entry.coffee",
+		"/Users/jasoncorbett/Sites/ss-swapsies/client/templates/game/full.jade",
+		"/Users/jasoncorbett/Sites/ss-swapsies/node_modules/jsdom/node_modules/nwmatcher/lib/prototype/selector_engine.js",
+		"/Users/jasoncorbett/Sites/ss-swapsies/node_modules/ss-hogan/node_modules/hogan.js/wrappers/amd.js.mustache",
+		"/Users/jasoncorbett/Downloads/PageTransitions/css/animations.css",
+		"/Users/jasoncorbett/Sites/ss-swapsies/client/templates/game/autocomplete.jade",
+		"/Users/jasoncorbett/Sites/ss-swapsies/app.js",
+		"/Users/jasoncorbett/Sites/ss-swapsies/server.coffee",
+		"/Users/jasoncorbett/Sites/ss-swapsies/README.md",
+		"/Users/jasoncorbett/Sites/ss-swapsies/client/code/app/gameView.coffee",
+		"/Users/jasoncorbett/Sites/ss-swapsies/node_modules/jquery/node_modules/htmlparser/tests/18-enforce_empty_tags.js",
+		"/Users/jasoncorbett/Sites/ss-swapsies/client/code/libs/matchmedia.js",
+		"/Users/jasoncorbett/Sites/ss-swapsies/node_modules/jsdom/node_modules/htmlparser2/tests/Events/09-attributes.json",
+		"/Users/jasoncorbett/Sites/ss-swapsies/server/rpc/app.coffee",
+		"/Users/jasoncorbett/Sites/ss-swapsies/client/code/libs/fastclick.js",
+		"/Users/jasoncorbett/Sites/ss-swapsies/client/css/font-awesome.styl",
+		"/Users/jasoncorbett/Sites/ss-swapsies/node_modules/mocha/node_modules/jade/testing/head.jade",
+		"/Users/jasoncorbett/Sites/ss-swapsies/client/css/font-awesome.styl.css",
+		"/Users/jasoncorbett/Sites/ss-swapsies/client/code/app/profileView.coffee"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"content {",
+			"content",
+			"content {",
+			"content }",
+			"content {",
+			"<li class=\"feed\"",
+			"feed",
+			"note",
+			"content {",
+			"landing ",
+			"3:30pm",
+			"landing",
+			"note {",
+			"map",
+			"landing {",
+			"landing",
+			"logo {",
+			"title ",
+			"landing__title",
+			"landing {",
+			"shadow",
+			"landing {",
+			"vh",
+			"hero {",
+			"hero P",
+			"landing {",
+			"32",
+			"landing",
+			"landing {",
+			"hero {",
+			"btn",
+			"button",
+			"jquery",
+			"header",
+			"landing",
+			"landing {",
+			"sub",
+			"landing {",
+			"fadeIn",
+			"iframe",
+			"landing {",
+			"RSVP",
+			"localhost:300",
+			"span",
+			"rsvp__checkbox",
+			"confirm",
+			"rsvp__close",
+			".btn",
+			"rvsp",
+			"rvsp__group",
+			"connect",
+			"collection",
+			"search__box",
+			"menu",
+			"platform",
+			"closeModal",
+			"close",
+			"$('.modal",
+			"modal--show",
+			"hero__acti",
+			"success",
+			"register",
+			"publish",
+			"user__action",
+			"closeMOdal",
+			"signup",
+			"# ",
+			"#",
+			"#sidebar",
+			"target",
+			":target",
+			"href",
+			"focus",
+			"target",
+			"focus",
+			"modal--show",
+			"publish",
+			"removeHero",
+			"publish",
+			"removeHero",
+			"subscrib",
+			"upgrade",
+			"removeHero",
+			"hero__action a",
+			"removeher",
+			"modal__face",
+			"publish",
+			"slideOut",
+			"modal--show",
+			"register",
+			"submit",
+			"user__action",
+			"action",
+			"user__action",
+			"publish",
+			"modal--show",
+			"hero ",
+			"hero a",
+			"--show",
+			"modal--show",
+			"loadmodal",
+			"closeModal",
+			"modal--show",
+			"closeModal",
+			"modal--show",
+			"#publish",
+			"publish",
+			"consoles",
+			"search",
+			"consoles",
+			"collections",
+			"body",
+			"swapsy",
+			"login",
+			"currentUser",
+			"mongoose",
+			"mongo",
+			"mongoose",
+			"register",
+			"remove",
+			"cross",
+			"remove",
+			"close",
+			"modal__title",
+			"swapsy",
+			"user",
+			"modal__tip",
+			"modal"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"toolbar"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 3172,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								756,
+								756
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "styles.css",
+					"settings":
+					{
+						"buffer_size": 3263,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2484,
+								2484
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2695.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "ui.js",
+					"settings":
+					{
+						"buffer_size": 2,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2,
+								2
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 140.0
+	},
+	"output.git":
+	{
+		"height": 140.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"ui",
+				"ui.js"
+			],
+			[
+				"styles.",
+				"styles.css"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"entry",
+				"js/entry.js"
+			],
+			[
+				"ine",
+				"index.html"
+			],
+			[
+				"entr",
+				"js/entry.js"
+			],
+			[
+				"style",
+				"css/styles.css"
+			],
+			[
+				"styles.css",
+				"css/styles.css"
+			],
+			[
+				"styles",
+				"css/styles.css"
+			],
+			[
+				"jquery",
+				"js/jquery.js"
+			],
+			[
+				"sty.",
+				"css/styles.css"
+			],
+			[
+				"animat",
+				"css/animate.css"
+			],
+			[
+				"index",
+				"static/index.html"
+			],
+			[
+				"styl",
+				"public/css/styles.styl"
+			],
+			[
+				"indd",
+				"views/index.jade"
+			],
+			[
+				"sty",
+				"public/css/styles.styl"
+			],
+			[
+				"index.jad",
+				"views/index.jade"
+			],
+			[
+				"styles.sty",
+				"public/css/styles.styl"
+			],
+			[
+				"styles.l",
+				"public/css/styles.styl"
+			],
+			[
+				"lay",
+				"views/layout.jade"
+			],
+			[
+				"ent",
+				"js/entry.coffee"
+			],
+			[
+				"layout",
+				"views/layout.jade"
+			],
+			[
+				"app",
+				"app.coffee"
+			],
+			[
+				"stly",
+				"public/css/styles.styl"
+			],
+			[
+				"somem",
+				"js/some-module.coffee"
+			],
+			[
+				"searc",
+				"client/css/search.styl"
+			],
+			[
+				"toolbar.sty",
+				"client/css/toolbar.styl"
+			],
+			[
+				"toolb",
+				"client/views/toolbar.jade"
+			],
+			[
+				"app.sty",
+				"client/css/app.styl"
+			],
+			[
+				"t",
+				"client/css/toolbar.styl"
+			],
+			[
+				"toolbar.st",
+				"client/css/toolbar.styl"
+			],
+			[
+				"too",
+				"client/views/toolbar.jade"
+			],
+			[
+				"toolbar",
+				"client/views/toolbar.jade"
+			],
+			[
+				"app.jad",
+				"client/views/app.jade"
+			],
+			[
+				"app.c",
+				"app.coffee"
+			],
+			[
+				"jase",
+				"client/code/app/jason.coffee"
+			],
+			[
+				"pp.sty",
+				"client/css/app.styl"
+			],
+			[
+				"app.coff",
+				"app.coffee"
+			],
+			[
+				"base.sty",
+				"client/css/base.styl"
+			],
+			[
+				"app.jade",
+				"client/views/app.jade"
+			],
+			[
+				"app.co",
+				"app.coffee"
+			],
+			[
+				"app.",
+				"app.coffee"
+			],
+			[
+				"app.st",
+				"client/css/app.styl"
+			],
+			[
+				"base",
+				"client/css/base.styl"
+			],
+			[
+				"toobar",
+				"client/views/toolbar.jade"
+			],
+			[
+				"hero",
+				"client/views/hero.jade"
+			],
+			[
+				"nav",
+				"client/views/nav.jade"
+			],
+			[
+				"sign",
+				"client/css/signup.styl"
+			],
+			[
+				"signup",
+				"client/css/signup.styl"
+			],
+			[
+				"sig",
+				"client/css/signup.styl"
+			],
+			[
+				"app.j",
+				"client/views/app.jade"
+			],
+			[
+				"landing",
+				"client/views/landing.jade"
+			],
+			[
+				"landin",
+				"client/views/landing.jade"
+			],
+			[
+				"subscr",
+				"client/views/subscribe.jade"
+			],
+			[
+				"app.ja",
+				"client/views/app.jade"
+			],
+			[
+				"app.cof",
+				"app.coffee"
+			],
+			[
+				"ap",
+				"client/views/app.jade"
+			],
+			[
+				"pp.coff",
+				"app.coffee"
+			],
+			[
+				"tool",
+				"client/views/toolbar.jade"
+			],
+			[
+				"sear",
+				"client/css/search.styl"
+			],
+			[
+				"font",
+				"client/static/font-awesome/font-awesome.css"
+			],
+			[
+				"card",
+				"client/css/card.styl"
+			],
+			[
+				"collec",
+				"client/css/collection.styl"
+			],
+			[
+				"base.",
+				"client/css/base.styl"
+			],
+			[
+				"entr.c",
+				"client/code/app/entry.coffee"
+			],
+			[
+				"nav.jad",
+				"client/views/nav.jade"
+			],
+			[
+				"login",
+				"client/views/login.jade"
+			],
+			[
+				"hero.st",
+				"client/css/hero.styl"
+			],
+			[
+				"toolbar.",
+				"client/views/toolbar.jade"
+			],
+			[
+				"login.st",
+				"client/css/login.styl"
+			],
+			[
+				"nav.sty",
+				"client/css/nav.styl"
+			],
+			[
+				"login.ja",
+				"client/views/login.jade"
+			],
+			[
+				"hero.jad",
+				"client/views/hero.jade"
+			],
+			[
+				"games.cof",
+				"server/rpc/games.coffee"
+			],
+			[
+				"hero.jade",
+				"client/views/hero.jade"
+			],
+			[
+				"jas",
+				"client/code/app/jason.coffee"
+			],
+			[
+				"app.coffe",
+				"app.coffee"
+			],
+			[
+				"collect",
+				"client/css/collection.styl"
+			],
+			[
+				"land",
+				"client/views/landing.jade"
+			],
+			[
+				"landing.a",
+				"client/views/landing.jade"
+			],
+			[
+				"hero.sty",
+				"client/css/hero.styl"
+			],
+			[
+				"auth",
+				"client/views/auth.jade"
+			],
+			[
+				"nav.st",
+				"client/css/nav.styl"
+			],
+			[
+				"land.st",
+				"client/css/landing.styl"
+			],
+			[
+				"base.st",
+				"client/css/base.styl"
+			],
+			[
+				"land.",
+				"client/css/landing.styl"
+			],
+			[
+				"nav.jade",
+				"client/views/nav.jade"
+			],
+			[
+				"hero.",
+				"client/css/hero.styl"
+			],
+			[
+				"hero.j",
+				"client/views/hero.jade"
+			],
+			[
+				"landing.ja",
+				"client/views/landing.jade"
+			],
+			[
+				"base.lsty",
+				"node_modules/jquery/node_modules/contextify/build/Release/.deps/Release/obj.target/contextify/src/contextify.o.d"
+			],
+			[
+				"auth.jade",
+				"client/views/auth.jade"
+			],
+			[
+				"auth.jae",
+				"client/views/auth.jade"
+			],
+			[
+				"app.e",
+				"app.coffee"
+			],
+			[
+				"landing.jade",
+				"client/views/landing.jade"
+			],
+			[
+				"auth.sty",
+				"client/css/auth.styl"
+			],
+			[
+				"landing.sty",
+				"client/css/landing.styl"
+			],
+			[
+				"login.jade",
+				"client/views/login.jade"
+			],
+			[
+				"base.s",
+				"client/css/base.styl"
+			],
+			[
+				"btn",
+				"node_modules/jitsu/node_modules/npm/node_modules/block-stream/test/nopad.js"
+			],
+			[
+				"logo",
+				"client/css/logos.styl"
+			],
+			[
+				"fontaweosme.css",
+				"client/static/font-awesome/font-awesome.css"
+			],
+			[
+				"fontawesome",
+				"client/css/font-awesome.css"
+			],
+			[
+				"fontawesome.css",
+				"client/css/font-awesome.css"
+			],
+			[
+				"fontawesom",
+				"client/css/font-awesome.styl"
+			],
+			[
+				"fontawesomestyl",
+				"client/css/font-awesome.styl"
+			],
+			[
+				"app.coffee",
+				"app.coffee"
+			],
+			[
+				"app.js",
+				"app.js"
+			],
+			[
+				"login.",
+				"client/views/login.jade"
+			],
+			[
+				"loginst",
+				"client/css/login.styl"
+			],
+			[
+				"en",
+				"client/code/app/entry.coffee"
+			],
+			[
+				"log",
+				"client/css/logos.styl"
+			],
+			[
+				"login.sty",
+				"client/css/login.styl"
+			],
+			[
+				"coll",
+				"client/css/collection.styl"
+			],
+			[
+				"app.s",
+				"client/css/app.styl"
+			],
+			[
+				"col",
+				"client/css/collection.styl"
+			],
+			[
+				"searh",
+				"client/css/search.styl"
+			],
+			[
+				"search.s",
+				"client/css/search.styl"
+			],
+			[
+				"toolbar.jad",
+				"client/views/toolbar.jade"
+			],
+			[
+				"toolar",
+				"client/views/toolbar.jade"
+			],
+			[
+				"butto",
+				"node_modules/jitsu/node_modules/require-analyzer/node_modules/detective/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/concatstring.js"
+			],
+			[
+				"enty",
+				"client/code/app/entry.coffee"
+			],
+			[
+				"auto",
+				"client/templates/game/autocomplete.jade"
+			],
+			[
+				"landing.j",
+				"client/views/landing.jade"
+			],
+			[
+				"anima",
+				"client/static/animations.css"
+			],
+			[
+				"button",
+				"node_modules/jitsu/node_modules/require-analyzer/node_modules/detective/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/concatstring.js"
+			],
+			[
+				"user",
+				"server/models/user.coffee"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"wed",
+				"/Users/jasoncorbett/Sites/wedding.sublime-project"
+			],
+			[
+				"",
+				"/Users/jasoncorbett/Sites/ss-swapsies/client/code/app/wotif-prototype.sublime-project"
+			],
+			[
+				"swap",
+				"/Users/jasoncorbett/Sites/swapsy.sublime-project"
+			],
+			[
+				"swapy",
+				"/Users/jasoncorbett/Sites/swapsy.sublime-project"
+			],
+			[
+				"swapsy",
+				"/Users/jasoncorbett/Sites/swapsy.sublime-project"
+			],
+			[
+				"swa",
+				"/Users/jasoncorbett/Sites/swapsies.sublime-project"
+			],
+			[
+				"s",
+				"/Users/jasoncorbett/Sites/swapsies.sublime-project"
+			],
+			[
+				"wot",
+				"/Users/jasoncorbett/Sites/ss-swapsies/client/code/app/wotif-prototype.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 243.0,
+	"status_bar_visible": true
+}

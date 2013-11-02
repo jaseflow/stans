@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html,
+body,
+.app{
+  height: 100%;
+}
+
+.app {
+  height: 100%;
+  position: relative;
+}
+
+.app__window {
+  width: 100%;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: auto;
+}
+
+.user {
+  -webkit-backface-visibility: hidden;
+  background: black;
+  width: 100%;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  z-index: 20;
+}
+
+.user__content {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  position: relative;
+  z-index: 10;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+}
+
+.user__title {
+  color: #fff;
+  font-size: 26px;
+  margin-bottom: 6px;
+}
+
+.bar {
+  color: #D6D6D6;
+  font-size: 18px;
+  margin-bottom: 12px;
+  width: 80%;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.bar__album {
+  color: #fff;
+}
+
+.bar__artist {
+  font-weight: normal;
+}
+
+.bar__canvas {
+  -webkit-transition: -webkit-transform 0.5s 0.5s ease;
+}
+
+.bar__canvas--switch {
+  -webkit-transform: translateY(-50%);
+}
+
+.user__action {
+  background-color: #FBA617;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  padding: 12px 40px;
+  font-size: 14px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.4);
+  border-radius: 2px;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.4);
+  -webkit-transition: -webkit-transform 0.5s ease;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.user:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('/img/big-krit.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.35;
+}
+
+.recent {
+  min-height: 415px;
+  overflow: hidden;
+  position: relative;
+}
+
+.recent__nav {
+  background-color: #303030;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #555;
+  flex-basis: 50%;
+  position: relative;
+}
+
+.recent__nav a {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  -webkit-transition: all 0.25s ease;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.recent__canvas {
+  position: absolute;
+  width: 100%;
+  -webkit-transition: -webkit-transform 0.25s ease;
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+}
+
+.recent__nav--toggled + .recent__canvas {
+  -webkit-transform: translateX(-100%);
+}
+
+.recent__tab {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.recent__tab:last-child {
+  left: 100%;
+}
+
+.recent__puck {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  height: 5px;
+  background-color: #FBA617;
+  -webkit-transition: -webkit-transform 0.1s ease;
+}
+
+.recent__nav a:first-child {
+  color: #fff;
+  font-weight: bold;
+}
+
+.recent__nav--toggled a:first-of-type {
+  color: inherit;
+  font-weight: inherit;
+}
+
+.recent__nav--toggled a:last-of-type {
+  color: #fff;
+  font-weight: bold;
+}
+
+.recent__nav--toggled .recent__puck {
+  -webkit-transform: translateX(100%);
+}
+
+.recent__feed {
+  display: flex;
+  flex-flow: column;
+}
+
+.recent__item {
+  border-top: 1px solid #eee;
+  background-color: #fff;
+  display: flex;
+  padding: 10px;
+}
+
+.recent__thumb {
+  width: 50px;
+  height: 50px;
+  background-image: url(/img/nwts_thumb.jpg);
+  background-size: cover;
+}
+
+.recent__deets {
+  flex: 5;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+.recent__when {
+  flex: 3;
+  padding-left: 20px;
+  font-size: 13px;
+  color: #999;
+  display: flex;
+  align-items: center;
+}
+
+.recent__artist {
+  font-size: 14px;
+  color: #555;
+}
+
+.recent__album {
+  color: #999;
+  font-weight: 200;
+}
+
+.wall {
+  background-color: #F6F6F6;
+  min-height: 500px;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  padding: 10px;
+}
+
+.wall__title {
+  margin: 6px 0 12px 0;
+  text-align: center;
+  color: #555;
+  font-size: 20px;
+}
+
+.card {
+  height: 200px;
+  background-color: #333;
+  margin-bottom: 12px;
+  background-position: center;
+}
+
+.content {
+  z-index: 200;
+  top: 40vh;
+  width: 100%;
+  position: absolute;
+  -webkit-transform: translateZ(0);
+  -webkit-transition: -webkit-transform 0.25s ease, opacity 0.5s ease;
+}
+
+.card {
+  background-image: url(/img/death-grips.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.card__footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: rgba(0,0,0,0.5);
+  border-top: 1px solid #3B3B3B;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.card__title {
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+
+  .user__content {
+    height: 30vh;
+  }
+
+  .content {
+    top: 30vh;
+    display: flex;
+    flex-flow: row-reverse;
+    bottom: 0;
+  }
+
+  .wall {
+    flex: 1;
+    background-color: #eee;
+  }
+
+  .user__title {
+    font-size: 50px;
+  }
+
+  .user__action {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .recent {
+    margin-top: -60px;
+    min-width: 320px;
+  }
+
+  .recent__nav {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .bar {
+    text-decoration: none;
+    cursor: default;
+    font-size: 26px;
+    margin-bottom: 24px;
+  }
+
+  .user__content:hover .bar__canvas {
+    -webkit-transform: translateY(-50%);
+  }
+
+  .bar__line {
+    -webkit-transition: opacity 1s ease;
+  }
+
+  .bar__line:last-child {
+    opacity: 0;
+  }
+
+  .user__content:hover .bar__line:first-child {
+    opacity: 0;
+  }
+
+  .user__content:hover .bar__line:last-child {
+    opacity: 1;
+  }
+
+  .cards {
+    margin-left: -20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    flex-basis: calc(50% - 20px);
+    margin-left: 20px;
+    height: 300px;
+  }
+
+}
+
+@media only screen and (min-width: 1200px) {
+  
+  .card {
+    flex-basis: calc(33.333333333% - 20px);
+  }
+
+}
