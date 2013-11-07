@@ -69,6 +69,14 @@ a {
   position: relative;
 }
 
+.search__icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #fff;
+  z-index: 70;
+}
+
 .search:before {
   position: absolute;
   display: block;
