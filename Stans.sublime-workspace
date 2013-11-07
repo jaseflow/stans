@@ -4,8 +4,10 @@
 		"selected_items":
 		[
 			[
-<<<<<<< HEAD
-=======
+				"webk-",
+				"webkit-transform"
+			],
+			[
 				"trans",
 				"translateY"
 			],
@@ -26,7 +28,6 @@
 				"barLineHeight"
 			],
 			[
->>>>>>> gh-pages
 				"webi",
 				"webkit-transform"
 			],
@@ -130,61 +131,31 @@
 			"file": "index.html",
 			"settings":
 			{
-<<<<<<< HEAD
-<<<<<<< HEAD
-				"buffer_size": 3172,
-=======
-				"buffer_size": 12040,
->>>>>>> gh-pages
-=======
-				"buffer_size": 14221,
->>>>>>> gh-pages
+				"buffer_size": 6231,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "styles.css",
+			"file": "css/styles.css",
 			"settings":
 			{
-<<<<<<< HEAD
-<<<<<<< HEAD
-				"buffer_size": 3263,
-=======
-				"buffer_size": 7264,
->>>>>>> gh-pages
-=======
-				"buffer_size": 8367,
->>>>>>> gh-pages
+				"buffer_size": 5849,
 				"line_ending": "Unix"
 			}
 		},
 		{
-<<<<<<< HEAD
-			"contents": "\nd",
-			"file": "ui.js",
-			"file_size": 0,
-			"file_write_time": 1383303211000000,
-			"settings":
-			{
-				"buffer_size": 2,
-=======
 			"file": "ui.js",
 			"settings":
 			{
-<<<<<<< HEAD
-				"buffer_size": 786,
+				"buffer_size": 850,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "fastClick.js",
+			"file": "css/font-awesome.css",
 			"settings":
 			{
-				"buffer_size": 23423,
->>>>>>> gh-pages
-=======
-				"buffer_size": 952,
->>>>>>> gh-pages
+				"buffer_size": 22707,
 				"line_ending": "Unix"
 			}
 		}
@@ -192,9 +163,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 74.0,
+		"height": 96.0,
 		"selected_items":
 		[
+			[
+				"wrao",
+				"Word Wrap: Toggle"
+			],
 			[
 				"project",
 				"Project: Save As"
@@ -280,7 +255,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 543.0
+		"width": 435.0
 	},
 	"console":
 	{
@@ -297,17 +272,16 @@
 	},
 	"file_history":
 	[
-<<<<<<< HEAD
-		"/Users/jasoncorbett/Sites/wedding-static/index.html",
-		"/Users/jasoncorbett/Sites/wedding-static/js/entry.js",
-		"/Users/jasoncorbett/Sites/wedding-static/css/styles.css",
-=======
+		"/Users/jasoncorbett/Sites/stans/css/animate.css",
+		"/Users/jasoncorbett/Sites/stans/recent.html",
+		"/Users/jasoncorbett/Desktop/index.html",
+		"/Users/jasoncorbett/Sites/stans/styles.css",
+		"/Users/jasoncorbett/Sites/stans/ui.js",
 		"/Users/jasoncorbett/Sites/stans/fastClick.js",
 		"/Users/jasoncorbett/Sites/stans/matchMedia.js",
 		"/Users/jasoncorbett/Sites/wedding-static/css/styles.css",
 		"/Users/jasoncorbett/Sites/wedding-static/index.html",
 		"/Users/jasoncorbett/Sites/wedding-static/js/entry.js",
->>>>>>> gh-pages
 		"/Users/jasoncorbett/Sites/wedding-static/css/animate.css",
 		"/Users/jasoncorbett/Sites/wedding-static/js/jquery.js",
 		"/Users/jasoncorbett/Sites/wedding-static/js/jquery.scrollTo.js",
@@ -425,18 +399,7 @@
 		"/Users/jasoncorbett/Sites/ss-swapsies/README.md",
 		"/Users/jasoncorbett/Sites/ss-swapsies/client/code/app/gameView.coffee",
 		"/Users/jasoncorbett/Sites/ss-swapsies/node_modules/jquery/node_modules/htmlparser/tests/18-enforce_empty_tags.js",
-		"/Users/jasoncorbett/Sites/ss-swapsies/client/code/libs/matchmedia.js",
-		"/Users/jasoncorbett/Sites/ss-swapsies/node_modules/jsdom/node_modules/htmlparser2/tests/Events/09-attributes.json",
-		"/Users/jasoncorbett/Sites/ss-swapsies/server/rpc/app.coffee",
-		"/Users/jasoncorbett/Sites/ss-swapsies/client/code/libs/fastclick.js",
-		"/Users/jasoncorbett/Sites/ss-swapsies/client/css/font-awesome.styl",
-<<<<<<< HEAD
-		"/Users/jasoncorbett/Sites/ss-swapsies/node_modules/mocha/node_modules/jade/testing/head.jade",
-		"/Users/jasoncorbett/Sites/ss-swapsies/client/css/font-awesome.styl.css",
-		"/Users/jasoncorbett/Sites/ss-swapsies/client/code/app/profileView.coffee"
-=======
-		"/Users/jasoncorbett/Sites/ss-swapsies/node_modules/mocha/node_modules/jade/testing/head.jade"
->>>>>>> gh-pages
+		"/Users/jasoncorbett/Sites/ss-swapsies/client/code/libs/matchmedia.js"
 	],
 	"find":
 	{
@@ -455,10 +418,37 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
+			"item__body",
+			"fa fa-times-circle-o",
+			"<div class=\"item__body\">",
+			"header {",
+			"content {",
+			"item:hover",
+			"<div class=\"item__thumb\"",
+			"<div class=\"item__thumb\" style=\"background-image: url(http://userserve-ak.last.fm/serve/500/92119511/The+SWOUP+Serengeti+cover.jpg)\"></div>\n        <h4 class=\"item__title\">\n          <span>The #SWOUP Serengeti</span>\n          <small>Spark Master Tape</small>\n        </h4>",
+			"<div class=\"item__thumb",
+			"search__input",
+			"result {",
+			"</small>\n        </h4>",
+			"caret-square-o",
+			"caret-square",
+			"shuffle__",
+			"  <div class=\"result__thumb\" style=\"background-image: url(http://userserve-ak.last.fm/serve/500/89294613/Watching+Movies+with+the+Sound+Off+PNG.png)\"></div>\n  <h4 class=\"result__title\">\n    <span>Watching Movies with the Sound Off</span>\n    <small>Mac Miller</small>\n  </h4>",
+			"<h4 class=\"result__title\">\n            ",
+			"recent {",
+			"style=\"background-im",
+			"style=\"background-image: url(http://userserve-ak.last.fm/serve/500/91826975/Yeezus.png)\"",
+			"cards {",
+			"user__title",
+			"wall {",
+			"card {",
+			"user__content",
+			"cards {",
+			"app__window {",
+			"card {",
+			"wall {",
+			"order",
+			"cards {",
 			"user {",
 			"bar__line",
 			"bottom: 0",
@@ -471,7 +461,6 @@
 			"card {",
 			"hero",
 			"card",
->>>>>>> gh-pages
 			"follow",
 			"body {",
 			"user",
@@ -529,7 +518,6 @@
 			"user__bar",
 			"content ",
 			"active",
->>>>>>> gh-pages
 			"content {",
 			"content",
 			"content {",
@@ -557,115 +545,7 @@
 			"hero P",
 			"landing {",
 			"32",
-			"landing",
-			"landing {",
-			"hero {",
-			"btn",
-			"button",
-			"jquery",
-			"header",
-			"landing",
-			"landing {",
-			"sub",
-			"landing {",
-			"fadeIn",
-			"iframe",
-			"landing {",
-			"RSVP",
-			"localhost:300",
-			"span",
-			"rsvp__checkbox",
-			"confirm",
-			"rsvp__close",
-			".btn",
-			"rvsp",
-			"rvsp__group",
-			"connect",
-			"collection",
-			"search__box",
-			"menu",
-			"platform",
-			"closeModal",
-			"close",
-			"$('.modal",
-<<<<<<< HEAD
-			"modal--show",
-			"hero__acti",
-			"success",
-			"register",
-			"publish",
-			"user__action",
-			"closeMOdal",
-			"signup",
-			"# ",
-			"#",
-			"#sidebar",
-			"target",
-<<<<<<< HEAD
-			":target",
-			"href",
-			"focus",
-			"target",
-			"focus",
-			"modal--show",
-			"publish",
-			"removeHero",
-			"publish",
-			"removeHero",
-			"subscrib",
-			"upgrade",
-			"removeHero",
-			"hero__action a",
-			"removeher",
-			"modal__face",
-			"publish",
-			"slideOut",
-			"modal--show",
-			"register",
-			"submit",
-			"user__action",
-			"action",
-			"user__action",
-			"publish",
-			"modal--show",
-			"hero ",
-			"hero a",
-			"--show",
-			"modal--show",
-			"loadmodal",
-			"closeModal",
-			"modal--show",
-			"closeModal",
-			"modal--show",
-			"#publish",
-			"publish",
-			"consoles",
-			"search",
-			"consoles",
-			"collections",
-			"body",
-			"swapsy",
-			"login",
-			"currentUser",
-			"mongoose",
-			"mongo",
-			"mongoose",
-			"register",
-			"remove",
-			"cross",
-			"remove",
-			"close",
-			"modal__title",
-			"swapsy",
-			"user",
-			"modal__tip",
-			"modal"
-=======
-			":target"
->>>>>>> gh-pages
-=======
-			"modal--show"
->>>>>>> gh-pages
+			"landing"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -684,15 +564,7 @@
 	"groups":
 	[
 		{
-<<<<<<< HEAD
-<<<<<<< HEAD
-			"selected": 2,
-=======
 			"selected": 1,
->>>>>>> gh-pages
-=======
-			"selected": 2,
->>>>>>> gh-pages
 			"sheets":
 			[
 				{
@@ -700,111 +572,53 @@
 					"file": "index.html",
 					"settings":
 					{
-<<<<<<< HEAD
-<<<<<<< HEAD
-						"buffer_size": 3172,
-=======
-						"buffer_size": 12040,
->>>>>>> gh-pages
-=======
-						"buffer_size": 14221,
->>>>>>> gh-pages
+						"buffer_size": 6231,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-<<<<<<< HEAD
-<<<<<<< HEAD
-								756,
-								756
-=======
-								4764,
-								4764
->>>>>>> gh-pages
-=======
-								11582,
-								11582
->>>>>>> gh-pages
+								2422,
+								2422
 							]
 						],
 						"settings":
 						{
-<<<<<<< HEAD
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-=======
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-<<<<<<< HEAD
-						"translation.y": 1857.0,
->>>>>>> gh-pages
-=======
-						"translation.y": 3790.0,
->>>>>>> gh-pages
+						"translation.y": 894.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "styles.css",
+					"file": "css/styles.css",
 					"settings":
 					{
-<<<<<<< HEAD
-<<<<<<< HEAD
-						"buffer_size": 3263,
-=======
-						"buffer_size": 7264,
->>>>>>> gh-pages
-=======
-						"buffer_size": 8367,
->>>>>>> gh-pages
+						"buffer_size": 5849,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-<<<<<<< HEAD
-<<<<<<< HEAD
-								2484,
-								2484
-=======
-								418,
-								420
->>>>>>> gh-pages
-=======
-								4748,
-								4748
->>>>>>> gh-pages
+								1279,
+								1279
 							]
 						],
 						"settings":
 						{
-<<<<<<< HEAD
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 2695.0,
-=======
 							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-<<<<<<< HEAD
-						"translation.y": 166.0,
->>>>>>> gh-pages
-=======
-						"translation.y": 5329.0,
->>>>>>> gh-pages
+						"translation.y": 926.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -814,78 +628,57 @@
 					"file": "ui.js",
 					"settings":
 					{
-<<<<<<< HEAD
-<<<<<<< HEAD
-						"buffer_size": 2,
-=======
-						"buffer_size": 786,
->>>>>>> gh-pages
-=======
-						"buffer_size": 952,
->>>>>>> gh-pages
+						"buffer_size": 850,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-<<<<<<< HEAD
-<<<<<<< HEAD
-								2,
-								2
-=======
-								627,
-								627
->>>>>>> gh-pages
-=======
-								294,
-								294
->>>>>>> gh-pages
+								845,
+								824
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 				},
 				{
 					"buffer": 3,
-					"file": "fastClick.js",
+					"file": "css/font-awesome.css",
 					"settings":
 					{
-						"buffer_size": 23423,
+						"buffer_size": 22707,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								22877,
-								22877
+								13413,
+								13413
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 12793.0,
+						"translation.y": 13012.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
->>>>>>> gh-pages
-=======
->>>>>>> gh-pages
 				}
 			]
 		}
@@ -940,10 +733,28 @@
 		"selected_items":
 		[
 			[
-<<<<<<< HEAD
-=======
+				"fontawe",
+				"css/font-awesome.css"
+			],
+			[
+				"ui.j",
+				"ui.js"
+			],
+			[
+				"styles.css",
+				"css/styles.css"
+			],
+			[
 				"styles",
-				"styles.css"
+				"css/styles.css"
+			],
+			[
+				"recent",
+				"recent.html"
+			],
+			[
+				"rece",
+				"recent.html"
 			],
 			[
 				"inde",
@@ -958,7 +769,6 @@
 				"fastClick.js"
 			],
 			[
->>>>>>> gh-pages
 				"ui",
 				"ui.js"
 			],
@@ -987,17 +797,6 @@
 				"css/styles.css"
 			],
 			[
-				"styles.css",
-				"css/styles.css"
-			],
-			[
-<<<<<<< HEAD
-				"styles",
-				"css/styles.css"
-			],
-			[
-=======
->>>>>>> gh-pages
 				"jquery",
 				"js/jquery.js"
 			],
@@ -1014,13 +813,6 @@
 				"static/index.html"
 			],
 			[
-<<<<<<< HEAD
-				"styl",
-				"public/css/styles.styl"
-			],
-			[
-=======
->>>>>>> gh-pages
 				"indd",
 				"views/index.jade"
 			],
@@ -1451,29 +1243,6 @@
 			[
 				"enty",
 				"client/code/app/entry.coffee"
-			],
-			[
-				"auto",
-				"client/templates/game/autocomplete.jade"
-			],
-			[
-				"landing.j",
-				"client/views/landing.jade"
-			],
-			[
-				"anima",
-				"client/static/animations.css"
-			],
-			[
-				"button",
-				"node_modules/jitsu/node_modules/require-analyzer/node_modules/detective/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/concatstring.js"
-<<<<<<< HEAD
-			],
-			[
-				"user",
-				"server/models/user.coffee"
-=======
->>>>>>> gh-pages
 			]
 		],
 		"width": 0.0
@@ -1483,6 +1252,10 @@
 		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"ew",
+				"/Users/jasoncorbett/Sites/wedding.sublime-project"
+			],
 			[
 				"swap",
 				"/Users/jasoncorbett/Sites/swapsy.sublime-project"
@@ -1521,7 +1294,7 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 243.0,
 	"status_bar_visible": true
 }

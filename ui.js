@@ -1,73 +1,35 @@
 
-var mobile = 'only screen and (max-width: 480px)',
-    tabletUp = 'only screen and (min-width: 768px)',
-    barLineHeight;
-
-var setBars = function() {
-  $('.bar').css('height',barLineHeight + 'px')
-}
-
-var applyOrder = function() {
-  var order = 1;
-  $('.card').each(function() {
-    $(this).css('order' , order);
-    order++;
-  });
-}
-
 $(function() {
 
-<<<<<<< HEAD
-    FastClick.attach(document.body);
 
-    barLineHeight = $('.bar__line:first-child').height();
-
-    setBars();
-
-   $('.recent__nav a').click(function(e) {
-      e.preventDefault();
-      $('.recent__nav').toggleClass('recent__nav--toggled');
-   });
-
-  $('#follow').click(function(e) {
-    e.preventDefault();
-=======
-  FastClick.attach(document.body);
-
-  barLineHeight = $('.bar__line:first-child').height();
-
-  applyOrder();
-
-  // setBars();
-
-  $('.recent__nav a').click(function(e) {
-    e.preventDefault();
-    $('.recent__nav').toggleClass('recent__nav--toggled');
+  $('.search__input').keyup(function(e) {
+    var term = $(this).val();
+    if(term.length > 3) {
+      $('.search__flyout').css('-webkit-transform','translateY(555px)')
+    }
   });
 
-  $('#follow').click(function(e) {
-    e.preventDefault();
-    $(this).css('background-color','rgb(0, 143, 255)');
-    $(this).html('<i class="icon-ok"></i> Following')
->>>>>>> gh-pages
+  $('.search__input').blur(function() {
+    $('.search__flyout').attr('style','');
   });
 
-  if (matchMedia(mobile).matches) {
+  $('.shuffle__arrow--down').click(function() {
+    var item = $(this).parents('.item');
+    item.insertAfter(item.next());
+  });
 
-<<<<<<< HEAD
-    $('#follow').click(function(e) {
-      e.preventDefault();
-      $(this).css('-webkit-transform','translateY(100px)');
-      $('#content').css('-webkit-transform','translateY(-81px)')
-    });
+  $('.shuffle__arrow--up').click(function() {
+    var item = $(this).parents('.item');
+    item.insertBefore(item.prev());
+  });
 
-=======
->>>>>>> gh-pages
-    $('.bar').click(function(e) {
-      $('.bar__canvas').toggleClass('bar__canvas--switch')
-    });
+  $('.delete__icon').click(function() {
+    var item = $(this).parents('.item'),
+        placeholder = "<li class='item item--placeholder'><div class='item__body'>Search for another album</div></li>";
 
-  };
-
+    item.remove();
+    console.log(placeholder);
+    $('.chart').append(placeholder);
+  });
 
 });
