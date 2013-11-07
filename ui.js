@@ -1,11 +1,18 @@
 
-var mobile = 'only screen and (max-width: 480px)';
-var tabletUp = 'only screen and (min-width: 768px)';
-
-var barLineHeight;
+var mobile = 'only screen and (max-width: 480px)',
+    tabletUp = 'only screen and (min-width: 768px)',
+    barLineHeight;
 
 var setBars = function() {
   $('.bar').css('height',barLineHeight + 'px')
+}
+
+var applyOrder = function() {
+  var order = 1;
+  $('.card').each(function() {
+    $(this).css('order' , order);
+    order++;
+  });
 }
 
 $(function() {
@@ -13,6 +20,8 @@ $(function() {
   FastClick.attach(document.body);
 
   barLineHeight = $('.bar__line:first-child').height();
+
+  applyOrder();
 
   // setBars();
 

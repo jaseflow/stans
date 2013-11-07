@@ -127,7 +127,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 12040,
+				"buffer_size": 14221,
 				"line_ending": "Unix"
 			}
 		},
@@ -135,7 +135,7 @@
 			"file": "styles.css",
 			"settings":
 			{
-				"buffer_size": 7264,
+				"buffer_size": 8367,
 				"line_ending": "Unix"
 			}
 		},
@@ -143,15 +143,7 @@
 			"file": "ui.js",
 			"settings":
 			{
-				"buffer_size": 786,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "fastClick.js",
-			"settings":
-			{
-				"buffer_size": 23423,
+				"buffer_size": 952,
 				"line_ending": "Unix"
 			}
 		}
@@ -410,6 +402,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"user {",
+			"bar__line",
+			"bottom: 0",
+			"20vh",
+			"padding: 20px",
+			"card:before",
+			"thumb",
+			"tjuathumb",
+			"item {",
+			"card {",
+			"hero",
+			"card",
 			"follow",
 			"body {",
 			"user",
@@ -525,19 +529,7 @@
 			"closeModal",
 			"close",
 			"$('.modal",
-			"modal--show",
-			"hero__acti",
-			"success",
-			"register",
-			"publish",
-			"user__action",
-			"closeMOdal",
-			"signup",
-			"# ",
-			"#",
-			"#sidebar",
-			"target",
-			":target"
+			"modal--show"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -556,7 +548,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -564,15 +556,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 12040,
+						"buffer_size": 14221,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4764,
-								4764
+								11582,
+								11582
 							]
 						],
 						"settings":
@@ -582,7 +574,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1857.0,
+						"translation.y": 3790.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -592,15 +584,15 @@
 					"file": "styles.css",
 					"settings":
 					{
-						"buffer_size": 7264,
+						"buffer_size": 8367,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								418,
-								420
+								4748,
+								4748
 							]
 						],
 						"settings":
@@ -610,7 +602,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 166.0,
+						"translation.y": 5329.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -620,49 +612,25 @@
 					"file": "ui.js",
 					"settings":
 					{
-						"buffer_size": 786,
+						"buffer_size": 952,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								627,
-								627
+								294,
+								294
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "fastClick.js",
-					"settings":
-					{
-						"buffer_size": 23423,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								22877,
-								22877
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 12793.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -724,6 +692,10 @@
 				"styles.css"
 			],
 			[
+				"inde",
+				"index.html"
+			],
+			[
 				"styl",
 				"styles.css"
 			],
@@ -738,10 +710,6 @@
 			[
 				"styles.",
 				"styles.css"
-			],
-			[
-				"inde",
-				"index.html"
 			],
 			[
 				"ind",
@@ -1240,16 +1208,16 @@
 		"selected_items":
 		[
 			[
+				"swap",
+				"/Users/jasoncorbett/Sites/swapsy.sublime-project"
+			],
+			[
 				"wed",
 				"/Users/jasoncorbett/Sites/wedding.sublime-project"
 			],
 			[
 				"",
 				"/Users/jasoncorbett/Sites/ss-swapsies/client/code/app/wotif-prototype.sublime-project"
-			],
-			[
-				"swap",
-				"/Users/jasoncorbett/Sites/swapsy.sublime-project"
 			],
 			[
 				"swapy",
