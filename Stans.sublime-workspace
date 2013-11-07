@@ -131,9 +131,13 @@
 			"settings":
 			{
 <<<<<<< HEAD
+<<<<<<< HEAD
 				"buffer_size": 3172,
 =======
 				"buffer_size": 12040,
+>>>>>>> gh-pages
+=======
+				"buffer_size": 14221,
 >>>>>>> gh-pages
 				"line_ending": "Unix"
 			}
@@ -143,9 +147,13 @@
 			"settings":
 			{
 <<<<<<< HEAD
+<<<<<<< HEAD
 				"buffer_size": 3263,
 =======
 				"buffer_size": 7264,
+>>>>>>> gh-pages
+=======
+				"buffer_size": 8367,
 >>>>>>> gh-pages
 				"line_ending": "Unix"
 			}
@@ -163,6 +171,7 @@
 			"file": "ui.js",
 			"settings":
 			{
+<<<<<<< HEAD
 				"buffer_size": 786,
 				"line_ending": "Unix"
 			}
@@ -172,6 +181,9 @@
 			"settings":
 			{
 				"buffer_size": 23423,
+>>>>>>> gh-pages
+=======
+				"buffer_size": 952,
 >>>>>>> gh-pages
 				"line_ending": "Unix"
 			}
@@ -444,7 +456,22 @@
 		"find_history":
 		[
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+			"user {",
+			"bar__line",
+			"bottom: 0",
+			"20vh",
+			"padding: 20px",
+			"card:before",
+			"thumb",
+			"tjuathumb",
+			"item {",
+			"card {",
+			"hero",
+			"card",
+>>>>>>> gh-pages
 			"follow",
 			"body {",
 			"user",
@@ -561,6 +588,7 @@
 			"closeModal",
 			"close",
 			"$('.modal",
+<<<<<<< HEAD
 			"modal--show",
 			"hero__acti",
 			"success",
@@ -635,6 +663,9 @@
 =======
 			":target"
 >>>>>>> gh-pages
+=======
+			"modal--show"
+>>>>>>> gh-pages
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -654,9 +685,13 @@
 	[
 		{
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"selected": 2,
 =======
 			"selected": 1,
+>>>>>>> gh-pages
+=======
+			"selected": 2,
 >>>>>>> gh-pages
 			"sheets":
 			[
@@ -666,9 +701,13 @@
 					"settings":
 					{
 <<<<<<< HEAD
+<<<<<<< HEAD
 						"buffer_size": 3172,
 =======
 						"buffer_size": 12040,
+>>>>>>> gh-pages
+=======
+						"buffer_size": 14221,
 >>>>>>> gh-pages
 						"regions":
 						{
@@ -677,11 +716,16 @@
 						[
 							[
 <<<<<<< HEAD
+<<<<<<< HEAD
 								756,
 								756
 =======
 								4764,
 								4764
+>>>>>>> gh-pages
+=======
+								11582,
+								11582
 >>>>>>> gh-pages
 							]
 						],
@@ -698,7 +742,11 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
+<<<<<<< HEAD
 						"translation.y": 1857.0,
+>>>>>>> gh-pages
+=======
+						"translation.y": 3790.0,
 >>>>>>> gh-pages
 						"zoom_level": 1.0
 					},
@@ -710,9 +758,13 @@
 					"settings":
 					{
 <<<<<<< HEAD
+<<<<<<< HEAD
 						"buffer_size": 3263,
 =======
 						"buffer_size": 7264,
+>>>>>>> gh-pages
+=======
+						"buffer_size": 8367,
 >>>>>>> gh-pages
 						"regions":
 						{
@@ -721,11 +773,16 @@
 						[
 							[
 <<<<<<< HEAD
+<<<<<<< HEAD
 								2484,
 								2484
 =======
 								418,
 								420
+>>>>>>> gh-pages
+=======
+								4748,
+								4748
 >>>>>>> gh-pages
 							]
 						],
@@ -742,7 +799,11 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
+<<<<<<< HEAD
 						"translation.y": 166.0,
+>>>>>>> gh-pages
+=======
+						"translation.y": 5329.0,
 >>>>>>> gh-pages
 						"zoom_level": 1.0
 					},
@@ -754,9 +815,13 @@
 					"settings":
 					{
 <<<<<<< HEAD
+<<<<<<< HEAD
 						"buffer_size": 2,
 =======
 						"buffer_size": 786,
+>>>>>>> gh-pages
+=======
+						"buffer_size": 952,
 >>>>>>> gh-pages
 						"regions":
 						{
@@ -765,23 +830,31 @@
 						[
 							[
 <<<<<<< HEAD
+<<<<<<< HEAD
 								2,
 								2
 =======
 								627,
 								627
 >>>>>>> gh-pages
+=======
+								294,
+								294
+>>>>>>> gh-pages
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 				},
@@ -810,6 +883,8 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
+>>>>>>> gh-pages
+=======
 >>>>>>> gh-pages
 				}
 			]
@@ -871,6 +946,10 @@
 				"styles.css"
 			],
 			[
+				"inde",
+				"index.html"
+			],
+			[
 				"styl",
 				"styles.css"
 			],
@@ -886,10 +965,6 @@
 			[
 				"styles.",
 				"styles.css"
-			],
-			[
-				"inde",
-				"index.html"
 			],
 			[
 				"ind",
@@ -1409,16 +1484,16 @@
 		"selected_items":
 		[
 			[
+				"swap",
+				"/Users/jasoncorbett/Sites/swapsy.sublime-project"
+			],
+			[
 				"wed",
 				"/Users/jasoncorbett/Sites/wedding.sublime-project"
 			],
 			[
 				"",
 				"/Users/jasoncorbett/Sites/ss-swapsies/client/code/app/wotif-prototype.sublime-project"
-			],
-			[
-				"swap",
-				"/Users/jasoncorbett/Sites/swapsy.sublime-project"
 			],
 			[
 				"swapy",

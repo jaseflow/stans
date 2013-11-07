@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 
 @-webkit-keyframes cycle {
   50% {
@@ -11,7 +9,6 @@
   }
 }
 
->>>>>>> gh-pages
 * {
     margin: 0;
     padding: 0;
@@ -20,10 +17,7 @@
 
 body {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
-<<<<<<< HEAD
-=======
   background-color: #555;
->>>>>>> gh-pages
 }
 
 a {
@@ -83,13 +77,6 @@ body,
   width: 80%;
   text-align: center;
   font-weight: bold;
-<<<<<<< HEAD
-  text-decoration: underline;
-  overflow: hidden;
-  cursor: pointer;
-}
-
-=======
   cursor: pointer;
 }
 
@@ -98,7 +85,6 @@ body,
   font-size: 18px;
 }
 
->>>>>>> gh-pages
 .bar__album {
   color: #fff;
 }
@@ -107,17 +93,6 @@ body,
   font-weight: normal;
 }
 
-<<<<<<< HEAD
-.bar__canvas {
-  -webkit-transition: -webkit-transform 0.5s 0.5s ease;
-}
-
-.bar__canvas--switch {
-  -webkit-transform: translateY(-50%);
-}
-
-=======
->>>>>>> gh-pages
 .user__action {
   background-color: #FBA617;
   color: #fff;
@@ -129,19 +104,12 @@ body,
   box-shadow: 0 1px 1px rgba(0,0,0,0.4);
   border-radius: 2px;
   text-shadow: 0 1px 0 rgba(0,0,0,0.4);
-<<<<<<< HEAD
-  -webkit-transition: -webkit-transform 0.5s ease;
-=======
   -webkit-transition: all 0.5s ease;
->>>>>>> gh-pages
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 .user:after {
-<<<<<<< HEAD
-=======
   -webkit-transition: -webkit-transform 5s ease;
->>>>>>> gh-pages
   content: '';
   display: block;
   position: absolute;
@@ -149,17 +117,10 @@ body,
   left: 0;
   right: 0;
   bottom: 0;
-<<<<<<< HEAD
-  background: url('/img/big-krit.jpg');
-  background-size: cover;
-  background-position: center;
-  opacity: 0.35;
-=======
   background: url('img/bluechips2.jpg');
   background-size: cover;
   background-position: center;
   opacity: 0.1;
->>>>>>> gh-pages
 }
 
 .recent {
@@ -191,10 +152,7 @@ body,
 
 .recent__canvas {
   position: absolute;
-<<<<<<< HEAD
-=======
   height: 100%;
->>>>>>> gh-pages
   width: 100%;
   -webkit-transition: -webkit-transform 0.25s ease;
   -webkit-transform: translateZ(0);
@@ -249,22 +207,6 @@ body,
 .recent__feed {
   display: flex;
   flex-flow: column;
-<<<<<<< HEAD
-}
-
-.recent__item {
-  border-top: 1px solid #eee;
-  background-color: #fff;
-  display: flex;
-  padding: 10px;
-}
-
-.recent__thumb {
-  width: 50px;
-  height: 50px;
-  background-image: url(/img/nwts_thumb.jpg);
-  background-size: cover;
-=======
   counter-reset: tally;
 }
 
@@ -301,7 +243,6 @@ body,
   background-image: url(img/nwts_thumb.jpg);
   background-size: cover;
   margin: 10px;
->>>>>>> gh-pages
 }
 
 .recent__deets {
@@ -310,10 +251,6 @@ body,
   flex-flow: column;
   align-items: flex-start;
   justify-content: center;
-<<<<<<< HEAD
-  padding-left: 20px;
-=======
->>>>>>> gh-pages
 }
 
 .recent__when {
@@ -339,9 +276,6 @@ body,
   background-color: #F6F6F6;
   min-height: 500px;
   box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
-<<<<<<< HEAD
-  padding: 10px;
-=======
 }
 
 .hero {
@@ -363,7 +297,6 @@ body,
 
 .wall__list {
   padding: 20px;
->>>>>>> gh-pages
 }
 
 .wall__title {
@@ -373,22 +306,16 @@ body,
   font-size: 20px;
 }
 
-<<<<<<< HEAD
-.card {
-=======
 .cards {
   counter-reset: tally;
 }
 
 .card {
   position: relative;
->>>>>>> gh-pages
   height: 200px;
   background-color: #333;
   margin-bottom: 12px;
   background-position: center;
-<<<<<<< HEAD
-=======
   -webkit-backface-visibility: hidden;
 }
 
@@ -406,7 +333,6 @@ body,
   justify-content: center;
   padding: 20px;
   font-size: 42px;
->>>>>>> gh-pages
 }
 
 .content {
@@ -419,11 +345,7 @@ body,
 }
 
 .card {
-<<<<<<< HEAD
-  background-image: url(/img/death-grips.jpg);
-=======
   background-image: url(img/death-grips.jpg);
->>>>>>> gh-pages
   background-size: cover;
   position: relative;
 }
@@ -434,12 +356,7 @@ body,
   left: 0;
   right: 0;
   height: 50px;
-<<<<<<< HEAD
-  background-color: rgba(0,0,0,0.5);
-  border-top: 1px solid #3B3B3B;
-=======
   background: linear-gradient(rgba(9, 9, 9, 0),black);
->>>>>>> gh-pages
   display: flex;
   align-items: center;
   padding: 10px;
@@ -454,19 +371,11 @@ body,
 @media only screen and (min-width: 768px) {
 
   .user__content {
-<<<<<<< HEAD
-    height: 30vh;
-  }
-
-  .content {
-    top: 30vh;
-=======
     height: 15vh;
   }
 
   .content {
     top: 15vh;
->>>>>>> gh-pages
     display: flex;
     flex-flow: row-reverse;
     bottom: 0;
@@ -474,13 +383,6 @@ body,
 
   .wall {
     flex: 1;
-<<<<<<< HEAD
-    background-color: #eee;
-  }
-
-  .user__title {
-    font-size: 50px;
-=======
     background-color: #ddd;
   }
 
@@ -501,20 +403,10 @@ body,
     flex-flow: column;
     align-items: flex-start;
     height: 100%;
->>>>>>> gh-pages
   }
 
   .user__action {
     position: absolute;
-<<<<<<< HEAD
-    top: 20px;
-    right: 20px;
-  }
-
-  .recent {
-    margin-top: -60px;
-    min-width: 320px;
-=======
     top: 50px;
     right: 20px;
   }
@@ -538,7 +430,6 @@ body,
     text-transform: uppercase;
     font-size: 13px;
     font-weight: bold;
->>>>>>> gh-pages
   }
 
   .recent__nav {
@@ -547,32 +438,6 @@ body,
   }
 
   .bar {
-<<<<<<< HEAD
-    text-decoration: none;
-    cursor: default;
-    font-size: 26px;
-    margin-bottom: 24px;
-  }
-
-  .user__content:hover .bar__canvas {
-    -webkit-transform: translateY(-50%);
-  }
-
-  .bar__line {
-    -webkit-transition: opacity 1s ease;
-  }
-
-  .bar__line:last-child {
-    opacity: 0;
-  }
-
-  .user__content:hover .bar__line:first-child {
-    opacity: 0;
-  }
-
-  .user__content:hover .bar__line:last-child {
-    opacity: 1;
-=======
     cursor: default;
     font-size: 16px;
     width: auto;
@@ -583,7 +448,6 @@ body,
     display: block;
     font-weight: 100;
     font-size: 13px;
->>>>>>> gh-pages
   }
 
   .cards {
@@ -598,14 +462,6 @@ body,
     height: 300px;
   }
 
-<<<<<<< HEAD
-}
-
-@media only screen and (min-width: 1200px) {
-  
-  .card {
-    flex-basis: calc(33.333333333% - 20px);
-=======
   .content {
     position: relative;
     top: 20vh;
@@ -614,11 +470,7 @@ body,
   .wall {
     overflow-y: auto;
   }
-  
-  .card__title {
-    top: 0;
-    height: auto;
-  }
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -688,7 +540,6 @@ body,
   .wall__list {
     height: 100vh;
     overflow: hidden;
->>>>>>> gh-pages
   }
 
 }

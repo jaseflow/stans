@@ -1,18 +1,23 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" ng-app>
 <head>
   <meta charset="UTF-8">
   <title>Stans</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=no">
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   <link rel="stylesheet" href="">
 >>>>>>> gh-pages
   <link rel="stylesheet" href="styles.css">
+=======
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+>>>>>>> gh-pages
   <script src="matchMedia.js"></script>
   <script src="fastClick.js"></script>
-  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
   <script src="ui.js"></script>
 </head>
 <body ontouchstart="">
@@ -21,6 +26,7 @@
     <div class="app__window">
       <header class="user">
         <div class="user__content">
+<<<<<<< HEAD
 <<<<<<< HEAD
           <h1 class="user__title">jaseflow</h1>
 =======
@@ -36,6 +42,12 @@
                 - 9.24.13 <span class="bar__album">Blue Chips 2</span> - <span class="bar__artist">Big Body Bes</span>
               </div>
             </div>
+=======
+          <h1 class="user__title">{{yourName}} <i class="fa-check"></i></h1>
+          <div class="search">
+            <label for="" class="search__label">Find an album</label>
+            <input type="text" ng-model="youName" class="search__input" placeholder="eg. My Beautiful Dark Twisted Fantasy">
+>>>>>>> gh-pages
           </div>
 <<<<<<< HEAD
           <a href="#content" id="follow" class="user__action">Follow</a>
@@ -45,6 +57,7 @@
       </header>
       
       <main class="content" id="content">
+<<<<<<< HEAD
 <<<<<<< HEAD
             <div class="recent">
               <nav class="recent__nav">
@@ -351,9 +364,192 @@
                   </div>
 >>>>>>> gh-pages
                 </div>
+=======
+          <div class="recent">
+            <!-- <div class="recent__hd">
+              Most listened
+            </div>
+            <nav class="recent__nav">
+              <a href="#">Last 7 days</a>
+              <a href="#">All time</a>
+              <div class="recent__puck"></div>
+            </nav> -->
+            <div class="recent__canvas">
+              <div class="recent__tab">
+                <ol class="recent__feed">
+                  <li class="recent__item">
+                      <div class="recent__tally"></div>
+                      <div class="recent__thumb">
+                      </div>
+                      <div class="recent__deets">
+                        <h4 class="recent__artist">Drake</h4>
+                        <h5 class="recent__album">Nothing Was The Same</h5>
+                      </div>
+                  </li>
+                  <li class="recent__item">
+                    <div class="recent__tally"></div>
+                    <div class="recent__thumb" style="background-image: url(img/bluechips2_thumb.jpg)"></div>
+                    <div class="recent__deets">
+                      <h4 class="recent__artist">Action Bronson</h4>
+                      <h5 class="recent__album">Blue Chips 2</h5>
+                    </div>
+                  </li>
+                  <li class="recent__item">
+                    <div class="recent__tally"></div>
+                    <div class="recent__thumb" style="background-image: url(img/devilheaven.jpg)"></div>
+                    <div class="recent__deets">
+                      <h4 class="recent__artist">Dopehead</h4>
+                      <h5 class="recent__album">Devils Heaven</h5>
+                    </div>
+                  </li>
+                  <li class="recent__item">
+                    <div class="recent__tally"></div>
+                    <div class="recent__thumb" style="background-image: url(img/delusional_thumb.jpg)"></div>
+                    <div class="recent__deets">
+                      <h4 class="recent__artist">Delusional Thomas</h4>
+                      <h5 class="recent__album">Delusional Thomas</h5>
+                    </div>
+                  </li>
+                  <li class="recent__item">
+                    <div class="recent__tally"></div>
+                    <div class="recent__thumb" style="background-image: url(img/nostalgic_thumb.jpg)"></div>
+                    <div class="recent__deets">
+                      <h4 class="recent__artist">Denzel Curry</h4>
+                      <h5 class="recent__album">Nostalgic 64</h5>
+                    </div>
+                  </li>
+                 <li class="recent__item">
+                      <div class="recent__tally"></div>
+                      <div class="recent__thumb">
+                      </div>
+                      <div class="recent__deets">
+                        <h4 class="recent__artist">Drake</h4>
+                        <h5 class="recent__album">Nothing Was The Same</h5>
+                      </div>
+                  </li>
+                  <li class="recent__item">
+                    <div class="recent__tally"></div>
+                    <div class="recent__thumb" style="background-image: url(img/bluechips2_thumb.jpg)"></div>
+                    <div class="recent__deets">
+                      <h4 class="recent__artist">Action Bronson</h4>
+                      <h5 class="recent__album">Blue Chips 2</h5>
+                    </div>
+                  </li>
+                  <li class="recent__item">
+                    <div class="recent__tally"></div>
+                    <div class="recent__thumb" style="background-image: url(img/devilheaven.jpg)"></div>
+                    <div class="recent__deets">
+                      <h4 class="recent__artist">Dopehead</h4>
+                      <h5 class="recent__album">Devils Heaven</h5>
+                    </div>
+                  </li>
+                  <li class="recent__item">
+                    <div class="recent__tally"></div>
+                    <div class="recent__thumb" style="background-image: url(img/delusional_thumb.jpg)"></div>
+                    <div class="recent__deets">
+                      <h4 class="recent__artist">Delusional Thomas</h4>
+                      <h5 class="recent__album">Delusional Thomas</h5>
+                    </div>
+                  </li>
+                  <li class="recent__item">
+                    <div class="recent__tally"></div>
+                    <div class="recent__thumb" style="background-image: url(img/nostalgic_thumb.jpg)"></div>
+                    <div class="recent__deets">
+                      <h4 class="recent__artist">Denzel Curry</h4>
+                      <h5 class="recent__album">Nostalgic 64</h5>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="recent__tab">
+                <ul class="recent__feed">
+                  <li class="recent__item">
+                    <div class="recent__tally"></div>
+                      <div class="recent__thumb">
+                      </div>
+                      <div class="recent__deets">
+                        <h4 class="recent__artist">Drake</h4>
+                        <h5 class="recent__album">Nothing Was The Same</h5>
+                      </div>
+                  </li>
+                  <li class="recent__item">
+                    <div class="recent__tally"></div>
+                    <div class="recent__thumb" style="background-image: url(img/bluechips2_thumb.jpg)"></div>
+                    <div class="recent__deets">
+                      <h4 class="recent__artist">Action Bronson</h4>
+                      <h5 class="recent__album">Blue Chips 2</h5>
+                    </div>
+                  </li>
+                  <li class="recent__item">
+                    <div class="recent__tally"></div>
+                    <div class="recent__thumb" style="background-image: url(img/devilheaven.jpg)"></div>
+                    <div class="recent__deets">
+                      <h4 class="recent__artist">Dopehead</h4>
+                      <h5 class="recent__album">Devils Heaven</h5>
+                    </div>
+                  </li>
+                  <li class="recent__item">
+                    <div class="recent__tally"></div>
+                    <div class="recent__thumb" style="background-image: url(img/delusional_thumb.jpg)"></div>
+                    <div class="recent__deets">
+                      <h4 class="recent__artist">Delusional Thomas</h4>
+                      <h5 class="recent__album">Delusional Thomas</h5>
+                    </div>
+                  </li>
+                  <li class="recent__item">
+                    <div class="recent__tally"></div>
+                    <div class="recent__thumb" style="background-image: url(img/nostalgic_thumb.jpg)"></div>
+                    <div class="recent__deets">
+                      <h4 class="recent__artist">Denzel Curry</h4>
+                      <h5 class="recent__album">Nostalgic 64</h5>
+                    </div>
+                  </li>
+                  <li class="recent__item">
+                    <div class="recent__tally"></div>
+                      <div class="recent__thumb">
+                      </div>
+                      <div class="recent__deets">
+                        <h4 class="recent__artist">Drake</h4>
+                        <h5 class="recent__album">Nothing Was The Same</h5>
+                      </div>
+                  </li>
+                  <li class="recent__item">
+                    <div class="recent__tally"></div>
+                    <div class="recent__thumb" style="background-image: url(img/bluechips2_thumb.jpg)"></div>
+                    <div class="recent__deets">
+                      <h4 class="recent__artist">Action Bronson</h4>
+                      <h5 class="recent__album">Blue Chips 2</h5>
+                    </div>
+                  </li>
+                  <li class="recent__item">
+                    <div class="recent__tally"></div>
+                    <div class="recent__thumb" style="background-image: url(img/devilheaven.jpg)"></div>
+                    <div class="recent__deets">
+                      <h4 class="recent__artist">Dopehead</h4>
+                      <h5 class="recent__album">Devils Heaven</h5>
+                    </div>
+                  </li>
+                  <li class="recent__item">
+                    <div class="recent__tally"></div>
+                    <div class="recent__thumb" style="background-image: url(img/delusional_thumb.jpg)"></div>
+                    <div class="recent__deets">
+                      <h4 class="recent__artist">Delusional Thomas</h4>
+                      <h5 class="recent__album">Delusional Thomas</h5>
+                    </div>
+                  </li>
+                  <li class="recent__item">
+                    <div class="recent__tally"></div>
+                    <div class="recent__thumb" style="background-image: url(img/nostalgic_thumb.jpg)"></div>
+                    <div class="recent__deets">
+                      <h4 class="recent__artist">Denzel Curry</h4>
+                      <h5 class="recent__album">Nostalgic 64</h5>
+                    </div>
+                  </li>
+                </ul>
+>>>>>>> gh-pages
               </div>
             </div>
-          </div>
+        </div>
       </main>
     </div> 
 
