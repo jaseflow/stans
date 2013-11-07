@@ -259,6 +259,14 @@ a {
   display: none;
 }
 
+.item:first-of-type .shuffle__arrow--up {
+  display: none;
+}
+
+.item:last-of-type .shuffle__arrow--down {
+  display: none;
+}
+
 .item--placeholder .item__body {
   margin-left: 60px;
   margin-right: 50px;
