@@ -5,7 +5,7 @@ $(function() {
   $('.search__input').keyup(function(e) {
     var term = $(this).val();
     if(term.length > 3) {
-      $('.search__flyout').css('-webkit-transform','translateY(555px)')
+      $('.search__flyout').css('display','block')
     }
   });
 
