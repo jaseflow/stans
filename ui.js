@@ -1,6 +1,13 @@
+var itemHeight,
+    itemLength;
 
 $(function() {
 
+  itemHeight = $('.item').outerHeight(),
+  itemLength = $('.item').length;
+
+
+  $('.chart').css('height',(itemHeight * itemLength));
 
   $('.search__input').keyup(function(e) {
     var term = $(this).val();
