@@ -209,6 +209,22 @@ a {
   width: 600px;
 }
 
+.chart__count {
+  list-style: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #777;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.chart__count li {
+  height: 112px;
+  display: flex;
+  align-items: center;
+}
+
 .content__title {
   font-size: 24px;
   margin-bottom: 20px;
@@ -356,11 +372,11 @@ a {
   visibility: visible;
   -webkit-animation: fadeInLeft 0.25s ease;
 }
-
+/*
 .item:hover .delete {
   visibility: visible;
   -webkit-animation: fadeInRight 0.25s ease;
-}
+}*/
 
 .share {
   width: 80%;
