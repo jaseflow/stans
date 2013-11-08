@@ -15,17 +15,17 @@ $(function() {
 
   $('.shuffle__arrow--down').click(function() {
     var item = $(this).parents('.item');
-    // item.insertAfter(item.next());
-    item.css('-webkit-transform','translateY(112px)');
-    prevItem.css('-webkit-transform','translateY(-112px)');
+    item.insertAfter(item.next());
+    item.css('-webkit-transform','translateY(0)');
+    prevItem.css('-webkit-transform','translateY(-0)');
   });
 
   $('.shuffle__arrow--up').click(function() {
     var item = $(this).parents('.item'),
         prevItem = $(this).parents('.item').prev('.item');
-    // item.insertBefore(item.prev());
-    item.css('-webkit-transform','translateY(-112px)');
-    prevItem.css('-webkit-transform','translateY(112px)');
+    item.insertBefore(item.prev());
+    item.css('-webkit-transform','translateY(-0)');
+    prevItem.css('-webkit-transform','translateY(0)');
   });
 
   $('.delete__icon').click(function() {

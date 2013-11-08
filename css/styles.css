@@ -247,33 +247,11 @@ a {
 
 .item__body {
   padding: 15px 20px;
-  padding-left: 120px;
   background-color: #fff;
   display: flex;
   flex: 1;
   align-items: center;
   border: 1px solid #ddd;
-}
-
-.item:before {
-  display: flex;
-  counter-increment: countdown;
-  content: counter(countdown);
-  font-size: 42px;
-  font-weight: bold;
-  color: #999;
-  text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.4);
-  margin-right: 20px;
-  position: absolute;
-  width: 100px;
-  background-color: #ddd;
-  top: 0;
-  bottom: 0;
-  left: 60px;
-  justify-content: center;
-  -webkit-transition: all 0.25s ease;
-  align-items: center;
-  border: 1px solid #bbb;
 }
 
 .item__thumb {
