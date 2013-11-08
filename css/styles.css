@@ -25,7 +25,7 @@ a {
   flex: 1;
   color: #fff;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 28px;
   letter-spacing: -2px;
   text-shadow: 0 1px 1px rgba(0,0,0,0.2);
   font-family: 'Droid Sans', sans-serif;
@@ -69,6 +69,11 @@ a {
   border-radius: 2px;
   font-weight: bold;
   border: 1px solid rgba(0, 0, 0, 0.09);
+  -webkit-transition: all 0.25s ease;
+}
+
+.controls__btn:hover {
+  border-color: #fff;
 }
 
 .header {
@@ -339,11 +344,11 @@ a {
 }
 
 .shuffle__arrow--up:hover {
-  color: green;
+  color: rgb(128, 245, 36);
 }
 
 .shuffle__arrow--down:hover {
-  color: red;
+  color: rgb(255, 71, 0);
 }
 
 .item:hover .shuffle {
