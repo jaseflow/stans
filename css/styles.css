@@ -8,7 +8,7 @@
 
 body {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
-  background-color: #f9f9f9;
+  background-color: #444;
 }
 
 a {
@@ -27,7 +27,7 @@ a {
   font-size: 32px;
   letter-spacing: -2px;
   text-shadow: 0 1px 1px rgba(0,0,0,0.2);
-  font-family: 'Droid Sans';
+  font-family: 'Droid Sans', sans-serif;
   margin-right: 20px;
 }
 
@@ -52,6 +52,7 @@ a {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 60px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.2);
 }
 
 .content {
@@ -93,7 +94,7 @@ a {
   background: rgba(42, 131, 213, 1);
   height: 55px;
   padding: 0 20px;
-  border: 1px solid transparent;
+  border: 1px solid rgba(0,0,0,0.2);
   width: 100%;
   border-radius: 2px;
   font-size: 18px;
@@ -189,6 +190,7 @@ a {
   font-size: 24px;
   margin-bottom: 40px;
   text-align: center;
+  color: #fff;
 }
 
 .item {
@@ -215,12 +217,12 @@ a {
   content: counter(countdown);
   font-size: 42px;
   font-weight: bold;
-  color: #FFFFFF;
+  color: #999;
   text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.4);
   margin-right: 20px;
   position: absolute;
   width: 100px;
-  background-color: #808080;
+  background-color: #bbb;
   top: 0;
   bottom: 0;
   left: 60px;
@@ -228,10 +230,6 @@ a {
   -webkit-transition: all 0.25s ease;
   align-items: center;
   border: 1px solid #FDFDFD;
-}
-
-.item:hover:before {
-  background-color: #777;
 }
 
 .item__thumb {
@@ -300,7 +298,7 @@ a {
 }
 
 .delete:hover {
-  color: #555;
+  color: #fff;
 }
 
 .shuffle {
@@ -314,8 +312,8 @@ a {
 }
 
 .shuffle__arrow {
-  font-size: 26px;
-  color: #bbb;
+  font-size: 32px;
+  color: #fff;
   width: 30px;
   height: 30px;
   text-align: center;
@@ -352,12 +350,12 @@ a {
   background-color: rgb(0,0,0,0);
   padding: 20px;
   border-radius: 4px;
-  color: #555;
-  border: 2px solid #555;
+  color: #fff;
+  border: 2px solid #fff;
   -webkit-transition: all 0.25s ease;
 }
 
 .share:hover {
-  border-color: rgb(255, 71, 0);
-  color: rgb(255, 71, 0);
+  border-color: rgb(10, 157, 255);
+  color: rgb(10, 157, 255);
 }
