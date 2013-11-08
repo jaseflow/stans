@@ -59,6 +59,7 @@ a {
 
 .controls__btn {
   display: flex;
+  margin-left: 10px;
   align-items: center;
   justify-content: center;
   height: 45px;
