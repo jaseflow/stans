@@ -242,7 +242,7 @@ a {
   top: 0;
   width: 100%;
   left: 0;
-  -webkit-transition: all 0.25s ease;
+  -webkit-transition: all 0.4s ease;
 }
 
 .item:nth-child(2) {
