@@ -205,6 +205,8 @@ a {
   margin: 0 auto;
   margin-bottom: 40px;
   counter-reset: countdown;
+  position: relative;
+  width: 600px;
 }
 
 .content__title {
@@ -220,6 +222,27 @@ a {
   align-items: center;
   margin-bottom: -1px;
   z-index: 20;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+  -webkit-transition: all 0.25s ease;
+}
+
+.item:nth-child(2) {
+  top: 112px;
+}
+
+.item:nth-child(3) {
+  top: 224px;
+}
+
+.item:nth-child(4) {
+  top: 336px;
+}
+
+.item:nth-child(5) {
+  top: 448px;
 }
 
 .item__body {

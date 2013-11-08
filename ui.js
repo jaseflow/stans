@@ -15,18 +15,22 @@ $(function() {
 
   $('.shuffle__arrow--down').click(function() {
     var item = $(this).parents('.item');
-    item.insertAfter(item.next());
+    // item.insertAfter(item.next());
+    item.css('-webkit-transform','translateY(112px)');
+    prevItem.css('-webkit-transform','translateY(-112px)');
   });
 
   $('.shuffle__arrow--up').click(function() {
-    var item = $(this).parents('.item');
-    item.insertBefore(item.prev());
+    var item = $(this).parents('.item'),
+        prevItem = $(this).parents('.item').prev('.item');
+    // item.insertBefore(item.prev());
+    item.css('-webkit-transform','translateY(-112px)');
+    prevItem.css('-webkit-transform','translateY(112px)');
   });
 
   $('.delete__icon').click(function() {
     var item = $(this).parents('.item'),
         placeholder = "<li class='item item--placeholder'><div class='item__body'>Search for another album</div></li>";
-
     item.remove();
     console.log(placeholder);
     $('.chart').append(placeholder);
