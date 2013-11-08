@@ -222,14 +222,14 @@ a {
   margin-right: 20px;
   position: absolute;
   width: 100px;
-  background-color: #bbb;
+  background-color: #ddd;
   top: 0;
   bottom: 0;
   left: 60px;
   justify-content: center;
   -webkit-transition: all 0.25s ease;
   align-items: center;
-  border: 1px solid #FDFDFD;
+  border: 1px solid #bbb;
 }
 
 .item__thumb {
