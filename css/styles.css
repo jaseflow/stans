@@ -28,7 +28,7 @@ a {
   letter-spacing: -2px;
   text-shadow: 0 1px 1px rgba(0,0,0,0.2);
   font-family: 'Droid Sans', sans-serif;
-  margin-right: 20px;
+  flex: 1;
 }
 
 .logo span {
@@ -45,11 +45,31 @@ a {
   border-color: red;
 }
 
+.controls {
+  display: flex;
+}
+
+.controls__add {
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+  font-size: 28px;
+}
+
+.controls__btn {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #FFFFFF;
+  border-radius: 2px;
+  padding: 10px 15px;
+  font-weight: bold;
+  border: 1px solid rgba(0, 0, 0, 0.09);
+}
+
 .header {
   display: flex;
   padding: 10px 20px;
   background-color: rgb(10, 157, 255);
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 60px;
   box-shadow: 0 1px 1px rgba(0,0,0,0.2);
