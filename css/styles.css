@@ -93,7 +93,7 @@ a {
   flex: 1;
   position: relative;
   width: 100%;
-  /* THis shit is weird */
+  min-width: 320px;
   max-width: 420px;
 }
 
@@ -371,6 +371,5 @@ a {
 }
 
 .share:hover {
-  border-color: rgb(10, 157, 255);
-  color: rgb(10, 157, 255);
+  border-color: #FF5C00;
 }
