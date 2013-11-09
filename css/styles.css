@@ -543,7 +543,7 @@ a {
 
 .tile__cover {
   overflow: hidden;
-  height: 35vh;
+  height: 200px;
   background-color: #353535;
   display: flex;
   justify-content: center;
@@ -558,7 +558,7 @@ a {
 }
 
 .tile__item {
-  height: 150px;
+  height: 100px;
   flex-basis: 50%;
   background-size: cover;
   background-position: center;
@@ -732,6 +732,10 @@ a {
 
   .item {
     height: 112px;
+  }
+
+  .item__cover {
+    height: 35vh;
   }
 
   .item__thumb {
