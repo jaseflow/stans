@@ -1,10 +1,16 @@
 var itemHeight,
-    itemLength;
+    itemLength,
+    item;
+
+
+if (Modernizr.draganddrop) {
+  // Browser supports HTML5 DnD.
+} else {
+  // Fallback to a library solution.
+}
 
 
 $(function() {
-
-  $('.logo')
 
   $('.controls__btn').click(function(e) {
     e.preventDefault();
@@ -35,6 +41,8 @@ $(function() {
   })
 
   $('.tile').click(function() {
+    var top = 0;
+    item = $('.item')
     chart = $(this).data('chart');
     $('.content').addClass('content--show-chart');
     $('.controls__btn--active').removeClass('controls__btn--active');
@@ -49,7 +57,17 @@ $(function() {
     }
     else if (chart === 'new') {
       $('#new').show();
+      $('.app').css('-webkit-transform','translateY(-60px)')
     }
+    $('.item').each(function() {
+      // i = $()
+      prevItemHeight = Math.max(item.prev().outerHeight()),
+      itemHeight = Math.max($('.item').outerHeight()),
+      itemLength = $('.item').length;
+          i = prevItemHeight;
+      $(this).css('top', top);
+      top = top + i
+    });
   });
 
   $('.search__input').keyup(function(e) {
@@ -83,6 +101,14 @@ $(function() {
         placeholder = "<li class='item item--placeholder'><div class='item__body'>Search for another album</div></li>";
     item.remove();
     $('.countdown').append(placeholder);
+  });
+
+  $('.items').hammer().on("drag", ".item", function(event) {
+    console.log(event.gesture.distance);
+    var distance = event.gesture.distance;
+    if (event.gesture.direction === 'down') {
+      $(this).css('top',distance+ 'px')
+    }
   });
 
 });
