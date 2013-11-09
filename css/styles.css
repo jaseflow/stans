@@ -508,6 +508,7 @@ a {
   height: 50%;
   flex-basis: 50%;
   background-size: cover;
+  background-position: center;
   -webkit-animation: fadeIn 0.5s ease;
   display: none;
   overflow: hidden;
