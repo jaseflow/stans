@@ -558,7 +558,7 @@ a {
 }
 
 .tile__item {
-  height: 100px;
+  height: 50%;
   flex-basis: 50%;
   background-size: cover;
   background-position: center;
@@ -663,10 +663,6 @@ a {
 
 @media only screen and (min-width: 768px) {
 
-  .tile__item {
-    height: 220px;
-  }
-
   .controls {
     display: none;
   }
@@ -752,7 +748,15 @@ a {
   }
 
   .tile__cover {
-    height: 35vh;
+    height: 320px;
+  }
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .tile {
+    flex-basis: calc(33.333333333% - 20px);
   }
 
 }
