@@ -134,7 +134,7 @@ a {
   align-items: center;
   flex-direction: column;
   overflow: hidden;
-  padding: 20px;
+  padding: 40px 20px;
   background-color: #444;
   overflow-y: auto;
   height: 100%;
@@ -405,7 +405,7 @@ a {
 .shuffle {
   visibility: hidden;
   opacity: 0;
-  -webkit-transition-delay: 0.4s;
+  -webkit-transition-delay: 0.25s;
   height: 100%;
   display: flex;
   align-items: center;
@@ -436,7 +436,7 @@ a {
 .item:hover .shuffle {
   visibility: visible;
   opacity: 1;
-  -webkit-animation: fadeInLeft 0.25s 0.4s ease;
+  -webkit-animation: fadeInLeft 0.25s 0.25s ease;
 }
 /*
 .item:hover .delete {
@@ -476,22 +476,22 @@ a {
 
 .tile {
   flex: 1;
-  /*flex-basis: 25%;*/
   flex-basis: calc(50% - 20px);
   margin-left: 20px;
   cursor: pointer;
   position: relative;
+  background-color: #333;
+  margin-bottom: 20px;
+  border-radius: 0 0 2px 2px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.8);
 }
 
 .tile__cover {
-  height: 250px;
+  height: 300px;
   background-color: #353535;
-  margin-bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #4E4E4E;
-  border-top-color: #333;
   box-shadow: inset 0 0 2px rgba(0,0,0,0.4);
   -webkit-transition: all 0.25s ease;
   flex-flow: row wrap;
@@ -513,18 +513,15 @@ a {
 
 .tile__item img {
   min-height: 100%;
-}
-
-.tile:hover .tile__cover {
-  border-color: #555;
-  box-shadow: inset 0 2px 2px rgba(0,0,0,0.4);
+  width: 100%;
 }
 
 .tile__title {
-  color: #fff;
+  color: #eee;
   font-size: 18px;
   text-align: center;
-  margin-bottom: 20px;
+  padding: 20px;
+  border-top: 1px solid #494949;
 }
 
 .tile__item:nth-child(3),

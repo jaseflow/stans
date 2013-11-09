@@ -4,11 +4,6 @@ var itemHeight,
 
 $(function() {
 
-  itemHeight = $('.item').outerHeight(),
-  itemLength = $('.item').length,
-  
-  $('.countdown').css('height',(itemHeight * itemLength));
-
   $('.logo')
 
   $('.controls__btn').click(function(e) {
@@ -43,7 +38,11 @@ $(function() {
     $('#logo__icon').addClass('fa-arrow-up');
     $('#logo__icon').css('-webkit-transform','rotate(-90deg)')
     if(chart === 'complete') {
+      itemHeight = $('.item').outerHeight(),
+      itemLength = $('.item').length;
+      console.log(itemLength);
       $('#complete').show();
+      $('.countdown').css('height',(itemHeight * itemLength));
     }
     else if (chart === 'new') {
       $('#new').show();
