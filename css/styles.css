@@ -514,8 +514,7 @@ a {
 }
 
 .tile__item img {
-  min-height: 100%;
-  width: 100%;
+  visibility: hidden;;
 }
 
 .tile__title {

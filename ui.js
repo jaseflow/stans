@@ -27,11 +27,11 @@ $(function() {
 
   $('.tile__item img').load(function() {
     var src = $(this).attr('src');
-    console.log(src);
     $(this).parent('.tile__item').css({
       'display' : 'block',
-      'background-image' : src
+      'background-image' : 'url(' + src + ')'
     });
+    $(this).remove();
   })
 
   $('.tile').click(function() {
