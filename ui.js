@@ -30,12 +30,24 @@ $(function() {
     $('.app').toggleClass('app--menu');
   })
 
+  $('.tile__item img').load(function() {
+    console.log('ready');
+    $(this).parent('.tile__item').css('display','block');
+  })
+
   $('.tile').click(function() {
+    chart = $(this).data('chart');
     $('.content').addClass('content--show-chart');
     $('.controls__btn--active').removeClass('controls__btn--active');
     $('#completed').show();
     $('#logo__icon').addClass('fa-arrow-up');
     $('#logo__icon').css('-webkit-transform','rotate(-90deg)')
+    if(chart === 'complete') {
+      $('#complete').show();
+    }
+    else if (chart === 'new') {
+      $('#new').show();
+    }
   });
 
   $('.search__input').keyup(function(e) {

@@ -1,0 +1,95 @@
+<div class="chart">
+      <h2 class="chart__title">Your Top 5 Albums of 2013</h2>
+      <div class="countdown">
+        <ol class="countdown__count">
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+        </ol>
+        <div class="items">
+          <div class="item" draggable="true">
+            <div class="delete">
+              <i class="fa fa-times-circle delete__icon"></i>
+            </div>
+            <div class="item__body">
+              <div class="item__thumb" style="background-image: url(http://userserve-ak.last.fm/serve/500/89294613/Watching+Movies+with+the+Sound+Off+PNG.png)"></div>
+              <h4 class="item__title">
+                <span>Watching Movies with the Sound Off</span>
+                <small>Mac Miller</small>
+              </h4>
+            </div>
+            <div class="shuffle">
+              <i class="fa fa-caret-up shuffle__arrow shuffle__arrow--up"></i>
+              <i class="fa fa-caret-down shuffle__arrow shuffle__arrow--down"></i>
+            </div>
+          </div>
+          <div class="item" draggable="true">
+            <div class="delete">
+              <i class="fa fa-times-circle delete__icon"></i>
+            </div>
+            <div class="item__body">
+              <div class="item__thumb" style="background-image: url(http://userserve-ak.last.fm/serve/500/92879483/Old.jpg)"></div>
+              <h4 class="item__title">
+                <span>Old</span>
+                <small>Danny Brown</small>
+              </h4>
+            </div>
+            <div class="shuffle">
+              <i class="fa fa-caret-up shuffle__arrow shuffle__arrow--up"></i>
+              <i class="fa fa-caret-down shuffle__arrow shuffle__arrow--down"></i>
+            </div>
+          </div>
+          <div class="item" draggable="true">
+            <div class="delete">
+              <i class="fa fa-times-circle delete__icon"></i>
+            </div>
+            <div class="item__body">
+              <div class="item__thumb" style="background-image: url(http://userserve-ak.last.fm/serve/500/92652447/Nostalgic+64+curry.jpg)"></div>
+              <h4 class="item__title">
+                <span>Nostalgic 64</span>
+                <small>Denzel Curry</small>
+              </h4>
+            </div>
+            <div class="shuffle">
+              <i class="fa fa-caret-up shuffle__arrow shuffle__arrow--up"></i>
+              <i class="fa fa-caret-down shuffle__arrow shuffle__arrow--down"></i>
+            </div>
+          </div>
+          <div class="item" draggable="true">
+            <div class="delete">
+              <i class="fa fa-times-circle delete__icon"></i>
+            </div>
+            <div class="item__body">
+              <div class="item__thumb" style="background-image: url(http://userserve-ak.last.fm/serve/500/94315297/Action+Bronson++Party+Supplies++Blue+Chips+2+00cover.jpg)"></div>
+              <h4 class="item__title">
+                <span>Blue Chips 2</span>
+                <small>Action Bronson &amp; Party Supplies</small>
+              </h4>
+            </div>
+            <div class="shuffle">
+              <i class="fa fa-caret-up shuffle__arrow shuffle__arrow--up"></i>
+              <i class="fa fa-caret-down shuffle__arrow shuffle__arrow--down"></i>
+            </div>
+          </div>
+          <div class="item" draggable="true">
+            <div class="delete">
+              <i class="fa fa-times-circle delete__icon"></i>
+            </div>
+            <div class="item__body">
+              <div class="item__thumb" style="background-image: url(http://userserve-ak.last.fm/serve/500/92119511/The+SWOUP+Serengeti+cover.jpg)"></div>
+              <h4 class="item__title">
+                <span>The #SWOUP Serengeti</span>
+                <small>Spark Master Tape</small>
+              </h4>
+            </div>
+            <div class="shuffle">
+              <i class="fa fa-caret-up shuffle__arrow shuffle__arrow--up"></i>
+              <i class="fa fa-caret-down shuffle__arrow shuffle__arrow--down"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="share">Share your chart</a>
+    </div>

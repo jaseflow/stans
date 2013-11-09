@@ -1,0 +1,16 @@
+  item = '<div class='item' draggable='true'>
+            <div class='delete'>
+              <i class='fa fa-times-circle delete__icon'></i>
+            </div>
+            <div class='item__body'>
+              <div class='item__thumb' style='background-image: url(http://userserve-ak.last.fm/serve/500/89294613/Watching+Movies+with+the+Sound+Off+PNG.png)'></div>
+              <h4 class='item__title'>
+                <span>Watching Movies with the Sound Off</span>
+                <small>Mac Miller</small>
+              </h4>
+            </div>
+            <div class='shuffle'>
+              <i class='fa fa-caret-up shuffle__arrow shuffle__arrow--up'></i>
+              <i class='fa fa-caret-down shuffle__arrow shuffle__arrow--down'></i>
+            </div>
+          </div>';
