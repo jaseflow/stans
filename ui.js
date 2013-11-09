@@ -9,13 +9,22 @@ if (Modernizr.draganddrop) {
   // Fallback to a library solution.
 }
 
+var loadNewChart = function() {
+  $('.chart').hide();
+  $('#new').show();
+  $('.app').attr('class',' app app--search');
+  $('.content').addClass('content--show-chart');
+  $('#logo__icon').addClass('fa-arrow-up');
+  $('#logo__icon').css('-webkit-transform','rotate(-90deg)')
+  // $('.controls').hide();
+}
+
 
 $(function() {
 
   $('.controls__btn').click(function(e) {
     e.preventDefault();
-    $('.controls__btn--active').removeClass('controls__btn--active');
-    $(this).addClass('controls__btn--active');
+    $(this).toggleClass('controls__btn--active');
   })
 
   $('.logo').click(function(e) {
@@ -24,10 +33,11 @@ $(function() {
     $('.chart').hide();
     $('#logo__icon').removeClass('fa-arrow-up');
     $('#logo__icon').css('-webkit-transform','rotate(0)')
+    $('.app').attr('class','app');
+    // $('.controls').show();
   });
 
   $('#show-menu').click(function(e) {
-    $(this).html('<i class="fa fa-times"></i>');
     $('.app').toggleClass('app--menu');
   })
 
@@ -56,8 +66,7 @@ $(function() {
       $('.countdown').css('height',(itemHeight * itemLength));
     }
     else if (chart === 'new') {
-      $('#new').show();
-      $('.app').css('-webkit-transform','translateY(-60px)')
+      loadNewChart();
     }
     $('.item').each(function() {
       // i = $()
@@ -68,6 +77,10 @@ $(function() {
       $(this).css('top', top);
       top = top + i
     });
+  });
+
+  $('.menu__item').click(function() {
+    loadNewChart();
   });
 
   $('.search__input').keyup(function(e) {
@@ -103,12 +116,12 @@ $(function() {
     $('.countdown').append(placeholder);
   });
 
-  $('.items').hammer().on("drag", ".item", function(event) {
-    console.log(event.gesture.distance);
-    var distance = event.gesture.distance;
-    if (event.gesture.direction === 'down') {
-      $(this).css('top',distance+ 'px')
-    }
-  });
+  // $('.items').hammer().on("drag", ".item", function(event) {
+  //   console.log(event.gesture.distance);
+  //   var distance = event.gesture.distance;
+  //   if (event.gesture.direction === 'down') {
+  //     $(this).css('top',distance+ 'px')
+  //   }
+  // });
 
 });
