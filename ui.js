@@ -1,13 +1,42 @@
 var itemHeight,
     itemLength;
 
+
 $(function() {
 
   itemHeight = $('.item').outerHeight(),
-  itemLength = $('.item').length;
+  itemLength = $('.item').length,
+  
+  $('.countdown').css('height',(itemHeight * itemLength));
 
+  $('.logo')
 
-  $('.chart').css('height',(itemHeight * itemLength));
+  $('.controls__btn').click(function(e) {
+    e.preventDefault();
+    $('.controls__btn--active').removeClass('controls__btn--active');
+    $(this).addClass('controls__btn--active');
+  })
+
+  $('.logo').click(function(e) {
+    e.preventDefault();
+    $('.content').removeClass('content--show-chart');
+    $('.chart').hide();
+    $('#logo__icon').removeClass('fa-arrow-up');
+    $('#logo__icon').css('-webkit-transform','rotate(0)')
+  });
+
+  $('#show-menu').click(function(e) {
+    $(this).html('<i class="fa fa-times"></i>');
+    $('.app').toggleClass('app--menu');
+  })
+
+  $('.tile').click(function() {
+    $('.content').addClass('content--show-chart');
+    $('.controls__btn--active').removeClass('controls__btn--active');
+    $('#completed').show();
+    $('#logo__icon').addClass('fa-arrow-up');
+    $('#logo__icon').css('-webkit-transform','rotate(-90deg)')
+  });
 
   $('.search__input').keyup(function(e) {
     var term = $(this).val();
@@ -40,7 +69,7 @@ $(function() {
         placeholder = "<li class='item item--placeholder'><div class='item__body'>Search for another album</div></li>";
     item.remove();
     console.log(placeholder);
-    $('.chart').append(placeholder);
+    $('.countdown').append(placeholder);
   });
 
 });

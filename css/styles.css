@@ -6,9 +6,16 @@
     box-sizing: border-box;
 }
 
+
+html,
+body,
+.app {
+  height: 100%;
+}
+
 body {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
-  background-color: #444;
+  background-color: #333;
 }
 
 a {
@@ -19,15 +26,31 @@ a {
 .app {
   display: flex;
   flex-direction: column;
+  position: relative;
+  z-index: 20;
+  -webkit-transition: -webkit-transform 0.25s ease;
+}
+
+.app--menu {
+  -webkit-transform: translateX(-320px);
+}
+
+.menu {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  max-width: 320px;
+  width: 100%;
+  box-shadow: inset 1px 1px 2px rgba(0,0,0,0.4);
 }
 
 .logo {
-  flex: 1;
   color: #fff;
   font-weight: bold;
   font-size: 28px;
   letter-spacing: -2px;
-  text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  text-shadow: 0 1px 1px rgba(0,0,0,0.1);
   font-family: 'Droid Sans', sans-serif;
 }
 
@@ -39,6 +62,10 @@ a {
   letter-spacing: -1px;
   font-size: 80%;
   border-bottom: 1px solid transparent;
+}
+
+#logo__icon {
+  -webkit-transition: -webkit-transform 0.25s ease;
 }
 
 .logo:hover span {
@@ -76,22 +103,32 @@ a {
   border-color: #fff;
 }
 
+.controls__btn--active {
+  background-color: rgb(0, 110, 184);
+  border-color: transparent;
+}
+
+.controls__btn--active:hover {
+  border-color: transparent;
+}
+
 .header {
   display: flex;
   padding: 10px 20px;
   background-color: rgb(10, 157, 255);
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  margin-bottom: 60px;
   box-shadow: 0 1px 1px rgba(0,0,0,0.2);
 }
 
 .content {
   flex: 1;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
+  overflow: hidden;
+  padding: 20px;
+  background-color: #444;
 }
 
 .search {
@@ -101,6 +138,9 @@ a {
   width: 100%;
   min-width: 320px;
   max-width: 420px;
+  /* THIS IS FICKED */
+  margin-left: 90px;
+  margin-bottom: 60px;
 }
 
 .search__icon {
@@ -203,13 +243,18 @@ a {
 .chart {
   width: 100%;
   max-width: 600px;
-  margin: 0 auto;
+  padding-top: 40px;
+  display: none;
+  -webkit-animation: fadeIn 0.25s ease;
+}
+
+.countdown {
   margin-bottom: 40px;
   counter-reset: countdown;
   position: relative;
 }
 
-.chart__count {
+.countdown__count {
   list-style: none;
   position: absolute;
   left: 0;
@@ -219,17 +264,26 @@ a {
   font-weight: bold;
 }
 
-.chart__count li {
+.countdown__count li {
   height: 112px;
-  display: flex;
+  display: none;
   align-items: center;
 }
 
-.content__title {
+.chart__title {
   font-size: 24px;
   margin-bottom: 20px;
   text-align: center;
   color: #fff;
+}
+
+.coach {
+  text-align: center;
+  font-size: 51px;
+  color: #999;
+  font-weight: 100;
+  position: relative;
+  margin-top: 60px;
 }
 
 .item {
@@ -379,7 +433,8 @@ a {
 }*/
 
 .share {
-  display: block;
+  display: none;
+  margin: 0 auto;
   width: 80%;
   font-size: 18px;
   margin-bottom: 40px;
@@ -396,4 +451,92 @@ a {
 
 .share:hover {
   border-color: #FF5C00;
+}
+
+.charts {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-flow: wrap row;
+  align-content: space-between;
+  -webkit-animation: fadeIn 0.25s ease;
+}
+
+.tile {
+  flex: 1;
+  /*flex-basis: 25%;*/
+  flex-basis: calc(50% - 20px);
+  margin-left: 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+.tile__cover {
+  height: 250px;
+  background-color: #353535;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #4E4E4E;
+  border-top-color: #333;
+  box-shadow: inset 0 0 2px rgba(0,0,0,0.4);
+  -webkit-transition: all 0.25s ease;
+}
+
+.tile:hover .tile__cover {
+  border-color: #555;
+  box-shadow: inset 0 2px 2px rgba(0,0,0,0.4);
+}
+
+.tile__title {
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.tile:hover .tile__title {
+  text-decoration: underline;
+}
+
+.tile:hover:after {
+  text-decoration: underline;
+}
+
+.tile__action {
+  background-color: rgb(10, 157, 255);
+  color: #fff;
+  font-weight: bold;
+  padding: 15px 40px;
+  border-radius: 4px;
+  -webkit-transition: all 0.25s ease;
+}
+
+.tile:hover .tile__action {
+  box-shadow: 0 2px 2px rgba(0,0,0,0.4);
+}
+
+/* SCENES */
+
+@-webkit-keyframes exitChart {
+
+  15% {
+    -webkit-transform: translateY(-40px);
+  }
+
+  20% {
+    -webkit-transform: translateY(0);
+  }
+
+  60%,
+  100% {
+    -webkit-transform: translateY(200%);
+  }
+
+
+}
+
+.content--show-chart .charts {
+  display: none;
 }
