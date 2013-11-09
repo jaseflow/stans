@@ -57,14 +57,11 @@ a {
   font-family: 'Droid Sans', sans-serif;
 }
 
-.logo span {
-  font-weight: 100;
-  color: rgba(0, 0, 0, 0.16);
-  text-shadow: none;
-  margin-left: 5px;
-  letter-spacing: -1px;
-  font-size: 80%;
-  border-bottom: 1px solid transparent;
+.logo small {
+  font-size: 12px;
+  font-weight: normal;
+  letter-spacing: 0;
+  text-transform: uppercase;
 }
 
 #logo__icon {

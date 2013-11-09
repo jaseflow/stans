@@ -26,8 +26,12 @@ $(function() {
   })
 
   $('.tile__item img').load(function() {
-    console.log('ready');
-    $(this).parent('.tile__item').css('display','block');
+    var src = $(this).attr('src');
+    console.log(src);
+    $(this).parent('.tile__item').css({
+      'display' : 'block',
+      'background-image' : src
+    });
   })
 
   $('.tile').click(function() {
@@ -40,7 +44,6 @@ $(function() {
     if(chart === 'complete') {
       itemHeight = $('.item').outerHeight(),
       itemLength = $('.item').length;
-      console.log(itemLength);
       $('#complete').show();
       $('.countdown').css('height',(itemHeight * itemLength));
     }
@@ -79,7 +82,6 @@ $(function() {
     var item = $(this).parents('.item'),
         placeholder = "<li class='item item--placeholder'><div class='item__body'>Search for another album</div></li>";
     item.remove();
-    console.log(placeholder);
     $('.countdown').append(placeholder);
   });
 
