@@ -50,6 +50,7 @@ a {
 
 .app--search {
   -webkit-transform: translateY(-30px);
+  height: calc(100% + 30px);
 }
 
 .app--search .logo {
@@ -204,7 +205,7 @@ a {
   align-items: center;
   flex-direction: column;
   overflow: hidden;
-  padding: 20px;
+  padding: 10px;
   background-color: #444;
   overflow-y: auto;
   bottom: 0;
@@ -261,11 +262,14 @@ a {
 
 .search__flyout {
   display: none;
+  height: 130px; /* NEEDS TO BE SET DYNAMICALLY */
   position: absolute;
   top: 100%;
+  overflow: hidden;
   width: 100%;
   left: 0;
   z-index: 50;
+  overflow-y: auto;
   background-color: #fff;
   border: 1px solid #ddd;
   box-shadow: 0 1px 1px rgba(0,0,0,0.4);
@@ -280,12 +284,6 @@ a {
   border-top: 1px solid #ddd;
   cursor: pointer;
   -webkit-transition: background-color 0.2s ease;
-}
-
-.result--highlight {
-  background-color: #ddd;
-  border-top-color: #ccc;
-  box-shadow: inset 0 -1px 0 #ccc, inset 1px 0 0 #ccc,inset -1px 0 0 #ccc;
 }
 
 
@@ -306,10 +304,10 @@ a {
 }
 
 .result__thumb {
-  width: 50px;
-  height: 50px;
+  width: 36px;
+  height: 36px;
   background-color: #ddd;
-  margin-right: 20px;
+  margin-right: 10px;
   background-size: cover;
 }
 
@@ -317,6 +315,10 @@ a {
   display: flex;
   flex-direction: column;
   font-size: 14px;
+}
+
+.result small {
+  color: #999;
 }
 
 .chart {
@@ -663,12 +665,25 @@ a {
 
 @media only screen and (min-width: 768px) {
 
+  .result__thumb {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+  }
+
+  .result--highlight {
+    background-color: #ddd;
+    border-top-color: #ccc;
+    box-shadow: inset 0 -1px 0 #ccc, inset 1px 0 0 #ccc,inset -1px 0 0 #ccc;
+  }
+
   .controls {
     display: none;
   }
 
   .app--search {
     -webkit-transform: translateY(0);
+    height: 100%;
   }
 
   .app--search .logo {

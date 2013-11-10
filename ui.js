@@ -16,9 +16,14 @@ var loadNewChart = function() {
   $('.content').addClass('content--show-chart');
   $('#logo__icon').addClass('fa-arrow-up');
   $('#logo__icon').css('-webkit-transform','rotate(-90deg)')
+  setTimeout(function() {}, 10);
   // $('.controls').hide();
 }
 
+var setSearchHeight = function() {
+  var distance = $('.foo').offset().top - $('.bar').offset().top
+  $('.search__flyout').css('height',distance);
+}
 
 $(function() {
 
