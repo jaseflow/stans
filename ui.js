@@ -21,7 +21,7 @@ var loadNewChart = function() {
 }
 
 var setSearchHeight = function() {
-  var distance = $('.foo').offset().top - $('.bar').offset().top
+  var distance = $('.search__input').offset().top - $('.bar').offset().top
   $('.search__flyout').css('height',distance);
 }
 
@@ -92,6 +92,13 @@ $(function() {
     var term = $(this).val();
     if(term.length > 3) {
       $('.search__flyout').css('display','block')
+      // define short of 'a'
+      if($('.search__flyout').is(':visible')) {
+        console.log('cat');
+        key('down', function(){
+          alert('you pressed a!')
+        });
+      }
     }
   });
 
@@ -121,12 +128,5 @@ $(function() {
     $('.countdown').append(placeholder);
   });
 
-  // $('.items').hammer().on("drag", ".item", function(event) {
-  //   console.log(event.gesture.distance);
-  //   var distance = event.gesture.distance;
-  //   if (event.gesture.direction === 'down') {
-  //     $(this).css('top',distance+ 'px')
-  //   }
-  // });
 
 });
