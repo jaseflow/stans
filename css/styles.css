@@ -510,15 +510,16 @@ a {
 }*/
 
 .share {
-  display: none;
+  display: block;
   margin: 0 auto;
-  width: 80%;
+  width: 100%;
+  max-width: 80%;
   font-size: 18px;
   margin-bottom: 40px;
   max-width: 320px;
   text-align: center;
   font-weight: bold;
-  background-color: rgb(0,0,0,0);
+  background-color: rgba(0,0,0,0);
   padding: 20px;
   border-radius: 4px;
   color: #fff;
@@ -527,7 +528,8 @@ a {
 }
 
 .share:hover {
-  border-color: #FF5C00;
+  background-color: #fff;
+  color: #444;
 }
 
 .charts {
