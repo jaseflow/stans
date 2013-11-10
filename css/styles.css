@@ -201,6 +201,7 @@ a {
 .content {
   flex: 1;
   -webkit-transform: translateZ(0);
+  -webkit-overflow-scrolling: touch;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -233,7 +234,7 @@ a {
 
 .search__input {
   background: #fff;
-  height: 55px;
+  height: 44px;
   padding: 0 20px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   width: 100%;
@@ -262,19 +263,25 @@ a {
 
 .search__flyout {
   display: none;
-  height: 130px; /* NEEDS TO BE SET DYNAMICALLY */
+  height: 142px; /* NEEDS TO BE SET DYNAMICALLY */
   position: absolute;
   top: 100%;
   overflow: hidden;
   width: 100%;
   left: 0;
   z-index: 50;
-  overflow-y: auto;
   background-color: #fff;
   border: 1px solid #ddd;
   box-shadow: 0 1px 1px rgba(0,0,0,0.4);
   -webkit-transition: -webkit-transform 0.2s ease;
+}
+
+.search__scroll {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
   -webkit-transform: translateZ(0);
+  -webkit-overflow-scrolling: touch;
 }
 
 .result {
@@ -299,10 +306,6 @@ a {
   border-top: none;
 }
 
-.result:last-of-type {
-  padding-bottom: 20px;
-}
-
 .result__thumb {
   width: 36px;
   height: 36px;
@@ -319,6 +322,7 @@ a {
 
 .result small {
   color: #999;
+  display: block;
 }
 
 .chart {
@@ -665,6 +669,10 @@ a {
 
 @media only screen and (min-width: 768px) {
 
+  .search__input {
+    height: 55px;
+  }
+
   .result__thumb {
     width: 50px;
     height: 50px;
@@ -764,6 +772,11 @@ a {
 
   .tile__cover {
     height: 320px;
+  }
+
+  .search__flyout {
+    height: 213px;
+    overflow: hidden;
   }
 
 }
