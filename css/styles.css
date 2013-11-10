@@ -332,6 +332,10 @@ a {
   -webkit-animation: fadeIn 0.25s ease;
 }
 
+.chart__hd {
+  -webkit-animation: fadeInDown 0.25s ease;
+}
+
 .countdown {
   margin-bottom: 40px;
   counter-reset: countdown;
