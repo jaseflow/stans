@@ -34,12 +34,15 @@ var addItem = function() {
 
   for (var i = 0; i in items; i++) {
     $('.items').append(items[i]);
+    // Shows the corresponsing order number in the chart
+    $('.countdown__count li:nth-child('+ (i + 1) +')').css('display','flex');
   }
 
   $('.item').each(function() {
     prevItemHeight = Math.max($('.item').prev().outerHeight()),
     $(this).css('top', top);
     top = top + prevItemHeight;
+    i++;
   });
 
 }
@@ -82,7 +85,8 @@ $(function() {
     $('.controls__btn--active').removeClass('controls__btn--active');
     $('#completed').show();
     $('#logo__icon').addClass('fa-arrow-up');
-    $('#logo__icon').css('-webkit-transform','rotate(-90deg)')
+    $('#logo__icon').css('-webkit-transform','rotate(-90deg)');
+    $('.search__input').focus();
     if(chart === 'complete') {
       itemHeight = $('.item').outerHeight(),
       itemLength = $('.item').length;
