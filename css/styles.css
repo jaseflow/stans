@@ -226,7 +226,7 @@ a {
 
 .search__icon {
   position: absolute;
-  top: 20px;
+  top: 15px;
   right: 20px;
   color: #999;
   z-index: 70;
@@ -381,12 +381,14 @@ a {
   cursor: -webkit-grab;
   position: relative;
   align-items: center;
+  height: 72px;
   margin-bottom: -1px;
   z-index: 20;
   position: absolute;
   top: 0;
   width: 100%;
   left: 0;
+  -webkit-animation: fadeInTop 0.25s ease;
 }
 
 .item__body {
@@ -690,6 +692,10 @@ a {
 
   .search__input {
     height: 55px;
+  }
+
+  .search__icon {
+    top: 20px;
   }
 
   .result__thumb {

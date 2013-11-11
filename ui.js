@@ -27,26 +27,24 @@ var setSearchHeight = function() {
 }
 
 var addItem = function() {
-  var i = 0;
-  var top = 0,
-  item = '<div class="item"><div class="item__body"><div class="item__thumb" style="background-image: url(http://userserve-ak.last.fm/serve/500/92879483/Old.jpg)"></div><h4 class="item__title"><span>Old</span><small>Danny Brown</small></h4></div><div class="delete"><i class="fa fa-times-circle delete__icon"></i></div> </div>';
+  var top = 0;
 
-  $('.items').append(items[i]);
   $('.search__flyout').hide();
+  $('.search__input').val('').focus();
+
+  for (var i = 0; i in items; i++) {
+    $('.items').append(items[i]);
+  }
 
   $('.item').each(function() {
     prevItemHeight = Math.max($('.item').prev().outerHeight()),
     $(this).css('top', top);
     top = top + prevItemHeight;
   });
-  
-  i++;
 
 }
 
 $(function() {
-
-  console.log(items);
 
   $('.controls__btn').click(function(e) {
     e.preventDefault();
@@ -124,6 +122,7 @@ $(function() {
 
   $('.result').click(function() {
     addItem();
+
   });
 
   $('.shuffle__arrow--down').click(function() {
