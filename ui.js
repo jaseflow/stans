@@ -26,25 +26,17 @@ var setSearchHeight = function() {
   $('.search__flyout').css('height',distance);
 }
 
+var itemCount = 0;
+var itemTop = 0;
 var addItem = function() {
-  var top = 0;
 
   $('.search__flyout').hide();
   $('.search__input').val('').focus();
 
-  for (var i = 0; i in items; i++) {
-    $('.items').append(items[i]);
-    // Shows the corresponsing order number in the chart
-    $('.countdown__count li:nth-child('+ (i + 1) +')').css('display','flex');
-  }
-
-  $('.item').each(function() {
-    prevItemHeight = Math.max($('.item').prev().outerHeight()),
-    $(this).css('top', top);
-    top = top + prevItemHeight;
-    i++;
-  });
-
+  $('.items').append(items[itemCount]);
+  $('.countdown__count li:nth-child('+ (itemCount + 1) +')').css('display','flex');
+  itemCount++;
+  
 }
 
 $(function() {
