@@ -2,12 +2,13 @@ var itemHeight,
     itemLength,
     item;
 
-
-if (Modernizr.draganddrop) {
-  // Browser supports HTML5 DnD.
-} else {
-  // Fallback to a library solution.
-}
+var items = [
+  '<div class="item"><div class="item__body"><div class="item__thumb" style="background-image: url(http://userserve-ak.last.fm/serve/500/89294613/Watching+Movies+with+the+Sound+Off+PNG.png)"></div><h4 class="item__title"><span>Watching Movies with the Sound Off</span><small>Mac Miller</small></h4></div><div class="delete"><i class="fa fa-times-circle delete__icon"></i></div> </div>',
+  '<div class="item"><div class="item__body"><div class="item__thumb" style="background-image: url(http://userserve-ak.last.fm/serve/500/92879483/Old.jpg)"></div><h4 class="item__title"><span>Old</span><small>Danny Brown</small></h4></div><div class="delete"><i class="fa fa-times-circle delete__icon"></i></div> </div>',
+  '<div class="item"><div class="item__body"><div class="item__thumb" style="background-image: url(http://userserve-ak.last.fm/serve/500/92652447/Nostalgic+64+curry.jpg)"></div><h4 class="item__title"><span>Nostalgic 64</span><small>Denzel Curry</small></h4></div><div class="delete"><i class="fa fa-times-circle delete__icon"></i></div> </div>',
+  '<div class="item"><div class="item__body"><div class="item__thumb" style="background-image: url(http://userserve-ak.last.fm/serve/500/94315297/Action+Bronson++Party+Supplies++Blue+Chips+2+00cover.jpg)"></div><h4 class="item__title"><span>Blue Chips 2</span><small>Action Bronson &amp; Party Supplies</small></h4></div><div class="delete"><i class="fa fa-times-circle delete__icon"></i></div> </div>',
+  '<div class="item"><div class="item__body"><div class="item__thumb" style="background-image: url(http://userserve-ak.last.fm/serve/500/92119511/The+SWOUP+Serengeti+cover.jpg)"></div><h4 class="item__title"><span>The #SWOUP Serengeti</span><small>Spark Master Tape</small></h4></div><div class="delete"><i class="fa fa-times-circle delete__icon"></i></div> </div>'
+]
 
 var loadNewChart = function() {
   $('.chart').hide();
@@ -25,7 +26,27 @@ var setSearchHeight = function() {
   $('.search__flyout').css('height',distance);
 }
 
+var addItem = function() {
+  var i = 0;
+  var top = 0,
+  item = '<div class="item"><div class="item__body"><div class="item__thumb" style="background-image: url(http://userserve-ak.last.fm/serve/500/92879483/Old.jpg)"></div><h4 class="item__title"><span>Old</span><small>Danny Brown</small></h4></div><div class="delete"><i class="fa fa-times-circle delete__icon"></i></div> </div>';
+
+  $('.items').append(items[i]);
+  $('.search__flyout').hide();
+
+  $('.item').each(function() {
+    prevItemHeight = Math.max($('.item').prev().outerHeight()),
+    $(this).css('top', top);
+    top = top + prevItemHeight;
+  });
+  
+  i++;
+
+}
+
 $(function() {
+
+  console.log(items);
 
   $('.controls__btn').click(function(e) {
     e.preventDefault();
@@ -94,7 +115,6 @@ $(function() {
       $('.search__flyout').css('display','block')
       // define short of 'a'
       if($('.search__flyout').is(':visible')) {
-        console.log('cat');
         key('down', function(){
           alert('you pressed a!')
         });
@@ -102,8 +122,8 @@ $(function() {
     }
   });
 
-  $('.search__input').blur(function() {
-    $('.search__flyout').attr('style','');
+  $('.result').click(function() {
+    addItem();
   });
 
   $('.shuffle__arrow--down').click(function() {
