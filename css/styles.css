@@ -17,14 +17,13 @@
 }
 
 html,
-body,
-.app {
+body{
   height: 100%;
 }
 
 body {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
-  background-color: #333;
+  background-color: #444;
 }
 
 img {
@@ -37,6 +36,9 @@ a {
 }
 
 .app {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
   position: relative;
   overflow: hidden;
   z-index: 20;
@@ -64,6 +66,17 @@ a {
 
 .app--menu + .menu {
   display: block;
+}
+
+.alert {
+  padding: 20px;
+  background-color: rgb(54, 54, 54);
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 1);
+  border-bottom: 1px solid #353535;
 }
 
 .menu {
@@ -199,21 +212,20 @@ a {
 }
 
 .content {
-  flex: 1;
+  /*flex: 1;*/
   -webkit-transform: translateZ(0);
   -webkit-overflow-scrolling: touch;
   display: flex;
   align-items: center;
   flex-direction: column;
   overflow: hidden;
-  padding: 10px;
-  background-color: #444;
+  /*background-color: #454545;*/
   overflow-y: auto;
-  bottom: 0;
+/*  bottom: 0;
   position: absolute;
   right: 0;
   left: 0;
-  top: 66px;
+  top: 66px;*/
 }
 
 .search {
@@ -232,7 +244,7 @@ a {
   z-index: 70;
 }
 
-.search__input {
+.input {
   background: #fff;
   height: 44px;
   padding: 0 20px;
@@ -328,8 +340,8 @@ a {
 .chart {
   width: 100%;
   max-width: 600px;
-  display: none;
   -webkit-animation: fadeIn 0.25s ease;
+  padding: 20px 10px;
 }
 
 .chart__hd {
@@ -337,7 +349,7 @@ a {
 }
 
 .countdown {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   counter-reset: countdown;
   position: relative;
 }
@@ -362,7 +374,7 @@ a {
 .chart__title {
   font-size: 16px;
   line-height: 1;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   text-align: center;
   color: #fff;
 }
@@ -378,33 +390,10 @@ a {
 
 .item {
   display: flex;
-  cursor: -webkit-grab;
   position: relative;
   align-items: center;
-  height: 72px;
-  margin-bottom: -1px;
   z-index: 20;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  left: 0;
   -webkit-animation: fadeInDown 0.25s ease;
-}
-
-.item:nth-child(2) {
-  top: 72px;
-}
-
-.item:nth-child(2) {
-  top: 144px;
-}
-
-.item:nth-child(2) {
-  top: 216px;
-}
-
-.item:nth-child(2) {
-  top: 288px;
 }
 
 .item__body {
@@ -414,6 +403,7 @@ a {
   flex: 1;
   align-items: center;
   border: 1px solid #ddd;
+  border-top: 0;
 }
 
 .item__thumb {
@@ -517,7 +507,7 @@ a {
   color: rgb(255, 71, 0);
 }
 
-.item:hover .shuffle {
+/*.item:hover .shuffle {
   visibility: visible;
   opacity: 1;
   -webkit-animation: fadeInLeft 0.25s 0.25s ease;
@@ -527,28 +517,20 @@ a {
   visibility: visible;
   -webkit-animation: fadeInRight 0.25s ease;
 }
-
-.share {
-  display: none;
+*/
+.button {
+  display: block;
   margin: 0 auto;
   width: 100%;
-  max-width: 80%;
   font-size: 18px;
-  margin-bottom: 40px;
-  max-width: 320px;
   text-align: center;
   font-weight: bold;
   background-color: rgba(0,0,0,0);
-  padding: 20px;
+  padding: 15px 20px;
   border-radius: 4px;
   color: #fff;
   border: 2px solid #fff;
   -webkit-transition: all 0.25s ease;
-}
-
-.share:hover {
-  background-color: #fff;
-  color: #444;
 }
 
 .charts {
@@ -649,11 +631,15 @@ a {
 }
 
 .user {
-  background-color: #2E2E2E;
+  display: none;
+  align-items: center;
+  width: 100%;
+  min-height: 100px; /* 20px of padding ontop of 80px generated from image inside, weird floating issues caused by flex around an image */
+  background-color: #383838;
   display: flex;
-  padding: 20px;
+  padding: 10px;
   position: relative;
-  justify-content: center;
+  border-bottom: 1px solid #525252;
 }
 
 .user__edit {
@@ -678,7 +664,8 @@ a {
 }
 
 .user__thumb {
-  max-width: 70px;
+  width: 60px;
+  height: 60px;
   margin-right: 20px;
 }
 
@@ -689,7 +676,7 @@ a {
 }
 
 .user__title {
-  color: #fff;
+  color: #eee;
 }
 
 .user__caption {
@@ -704,7 +691,60 @@ a {
   display: none;
 }
 
+.message {
+  display: none;
+  padding: 20px;
+  max-width: 700px;
+  color: #fff;
+  flex-direction: column;
+  line-height: 1.5;
+  -webkit-animation: fadeIn 0.25s ease;
+}
+
+.message__title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.message p {
+  margin-bottom: 10px;
+}
+
+.message p:last-child {
+  margin-bottom: 40px;
+}
+
+.subscribe__label {
+  display: none;
+}
+
+.subscribe__input {
+  margin-bottom: 20px;
+}
+
 @media only screen and (min-width: 768px) {
+
+  .button {
+    max-width: 320px;
+  }
+
+  .button:hover {
+    background-color: #fff;
+    color: #555;
+  }
+
+  .message {
+    padding: 30px;
+  }
+  
+  .chart {
+    padding: 30px;
+    max-width: 700px;
+  }
+
+  .countdown {
+    margin-bottom: 40px;
+  }
 
   .search__input {
     height: 55px;
@@ -768,10 +808,6 @@ a {
     display: flex;
   }
 
-  .content {
-    padding: 40px 20px;
-  }
-
   .countdown__count {
     display: block;
   }
@@ -787,32 +823,11 @@ a {
 
   .chart__title {
     font-size: 28px;
-    margin-bottom: 20px;
   }
 
-  .item {
-    height: 112px;
-  }
-
-  .item:nth-child(2) {
-    top: 112px;
-  }
-
-  .item:nth-child(3) {
-    top: 224px;
-  }
-
-  .item:nth-child(4) {
-    top: 336px;
-  }
-
-  .item:nth-child(5) {
-    top: 448px;
-  }
-
-  .item__cover {
+/*  .item__cover {
     height: 35vh;
-  }
+  }*/
 
   .item__thumb {
     width: 80px;
@@ -835,6 +850,19 @@ a {
   .search__flyout {
     height: 213px;
     overflow: hidden;
+  }
+
+  .user {
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .user__title {
+    font-size: 22px;
+  }
+
+  .user__caption {
+    font-size: 18px;
   }
 
 }

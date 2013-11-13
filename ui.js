@@ -41,6 +41,15 @@ var addItem = function() {
 
 $(function() {
 
+  $('#create').click(function(e) {
+    e.preventDefault();
+    $('#message').show();
+    $('#user').hide();
+    $('#chart').hide();
+    $('#logo__icon').addClass('fa-arrow-up');
+    $('#logo__icon').css('-webkit-transform','rotate(-90deg)');
+  })
+
   $('.controls__btn').click(function(e) {
     e.preventDefault();
     $(this).toggleClass('controls__btn--active');
@@ -48,12 +57,11 @@ $(function() {
 
   $('.logo').click(function(e) {
     e.preventDefault();
-    $('.content').removeClass('content--show-chart');
-    $('.chart').hide();
+    $('#message').hide();
+    $('#user').css('display','flex');
+    $('#chart').show();
     $('#logo__icon').removeClass('fa-arrow-up');
     $('#logo__icon').css('-webkit-transform','rotate(0)')
-    $('.app').attr('class','app');
-    // $('.controls').show();
   });
 
   $('#show-menu').click(function(e) {
