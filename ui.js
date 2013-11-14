@@ -44,7 +44,8 @@ $(function() {
   $('.prompt').click(function(e) {
     e.preventDefault();
     $('#message').css({
-        '-webkit-transform' : 'translateY(1400px)'
+        '-webkit-animation' : 'fadeIn 0.5s ease',
+        '-webkit-transform' : 'translateY(1300px)'
     });
     $('.app').addClass('app--message');
     $('#logo__icon').addClass('fa-arrow-up');
