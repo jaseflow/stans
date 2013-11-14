@@ -18,7 +18,7 @@
   <script src="hammer.js"></script>
   <script src="jquery.hammer.js"></script>
   <script src="ui.js"></script>
-  <script src="search.js"></script>
+  <!--<script src="search.js"></script>-->
   <link rel="shortcut icon" href="/icon.png">
   <link rel="apple-touch-icon-precomposed" href="/icon.png">
 </head>
@@ -40,6 +40,7 @@
           <h2 class="user__title">Jaseflow</h2>
           <small class="user__caption">Motherfuckers out here wildin n shit</small>
         </div>
+        <a href="#" class="user__action prompt">Cosign</a>
       </div>
       <div class="chart" id="chart">
         <div class="chart__hd">
@@ -118,18 +119,20 @@
             </div>
           </div>
         </div>
-        <a href="#" class="button" id="create">Create your own chart</a>
+        <a href="#" class="button chart__action prompt">Create your own chart</a>
       </div>
       <div class="message" id="message">
-        <div class="message__title">Hol' up, fam!</div>
-        <div>
-          <p>At the moment Hipcharts is currently invite only.</p>
-          <p>Leave your email below and once more invitations are allocated we'll be in touch.</p>
+        <div class="message__title">Hipcharts is invite only</div>
+        <div class="message__body">
+          <h3 style="margin-bottom: 10px">Sorry fam, we are temporarily invite only.</h3>
+          <p>Leave your email below and as soon as more invitations are allocated we'll be in touch.</p>
+          <h3 style="margin-bottom: 10px">Want to know more?</h3>
+          <p><a href="#">Find out how Hipcharts flips traditional charting on its head.</a></p>
         </div>
-        <form action="http://swapsy.createsend.com/t/i/s/qjlut/" method="post" class="subscribe">
+        <form action="http://swapsy.createsend.com/t/i/s/qjlut/" method="post" class="message__footer subscribe">
             <label for="fieldEmail" class="subscribe__label">Email</label>
             <input id="fieldEmail"  placeholder="Your email address" class="input subscribe__input" name="cm-qjlut-qjlut" type="email" required />
-            <button class="button subscribe__action" type="submit">Subscribe</button>
+            <button class="button button--alt subscribe__action" type="submit">Request invite</button>
          </form>
       </div>
     </div>

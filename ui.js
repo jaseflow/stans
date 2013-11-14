@@ -41,11 +41,12 @@ var addItem = function() {
 
 $(function() {
 
-  $('#create').click(function(e) {
+  $('.prompt').click(function(e) {
     e.preventDefault();
-    $('#message').show();
-    $('#user').hide();
-    $('#chart').hide();
+    $('#message').css({
+        '-webkit-transform' : 'translateY(1400px)'
+    });
+    $('.app').addClass('app--message');
     $('#logo__icon').addClass('fa-arrow-up');
     $('#logo__icon').css('-webkit-transform','rotate(-90deg)');
   })
@@ -57,9 +58,8 @@ $(function() {
 
   $('.logo').click(function(e) {
     e.preventDefault();
-    $('#message').hide();
-    $('#user').css('display','flex');
-    $('#chart').show();
+    $('#message').css('-webkit-transform','translateY(-1400px)');
+    $('.app').removeClass('app--message');
     $('#logo__icon').removeClass('fa-arrow-up');
     $('#logo__icon').css('-webkit-transform','rotate(0)')
   });
