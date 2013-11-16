@@ -123,7 +123,7 @@ a {
   text-align: center;
   color: #fff;
   font-weight: bold;
-  font-size: 28px;
+  font-size: 22px;
   letter-spacing: -2px;
   text-shadow: 0 1px 1px rgba(0,0,0,0.1);
   font-family: 'Droid Sans', sans-serif;
@@ -132,11 +132,13 @@ a {
 
 .logo__icon {
   display: block;
-  width: 30px;
-  height: 28px;
+  width: 24px;
+  height: 22px;
   background-image: url(/img/H@2x.png);
   background-size: cover;
-  margin-right: 10px;
+  margin-right: 5px;
+  position: relative;
+  top: -1px;
 }
 
 .logo small {
@@ -203,6 +205,7 @@ a {
 }*/
 
 .header {
+  padding: 0 10px;
   display: flex;
   background-color: rgb(10, 157, 255);
   align-items: center;
@@ -661,7 +664,7 @@ a {
   width: 100%;
   background-color: #383838;
   display: flex;
-  padding: 20px 10px;
+  padding: 10px;
   z-index: 20;
   position: relative;
   border-bottom: 1px solid #525252;
