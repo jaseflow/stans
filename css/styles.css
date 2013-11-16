@@ -118,12 +118,8 @@ a {
 }
 
 .logo {
-  position: absolute;
-  display: block;
-  width: 200px;
-  left: 50%;
-  bottom: 16px;
-  margin-left: -100px;
+  display: flex;
+  align-items: center;
   text-align: center;
   color: #fff;
   font-weight: bold;
@@ -132,6 +128,15 @@ a {
   text-shadow: 0 1px 1px rgba(0,0,0,0.1);
   font-family: 'Droid Sans', sans-serif;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.logo__icon {
+  display: block;
+  width: 30px;
+  height: 28px;
+  background-image: url(/img/H@2x.png);
+  background-size: cover;
+  margin-right: 10px;
 }
 
 .logo small {
@@ -199,15 +204,13 @@ a {
 
 .header {
   display: flex;
-  padding: 10px;
   background-color: rgb(10, 157, 255);
-  justify-content: center;
   align-items: center;
   box-shadow: 0 1px 2px rgba(0,0,0,0.4);
   position: relative;
   position: relative;
   z-index: 20;
-  min-height: 66px;
+  min-height: 50px;
   border-bottom: 1px solid rgb(84, 173, 207);
 }
 
@@ -216,9 +219,9 @@ a {
   height: 100%;
   -webkit-transform: translateZ(0);
   -webkit-overflow-scrolling: touch;
-  display: flex;
+/*  display: flex;
   align-items: center;
-  flex-direction: column;
+  flex-direction: column;*/
   overflow: hidden;
   /*background-color: #454545;*/
   overflow-y: auto;
@@ -229,22 +232,14 @@ a {
   top: 66px;*/
 }
 
-.content:before {
+.overlay {
   position: absolute;
   width: 100%;
   height: 100%;
-  display: block;
-  content: '';
-  background-color: #000;
-  z-index: 30;
-  top: 0;
-  right: -100%;
-  bottom: 0;
+  background: #000;
   opacity: 0.8;
-}
-
-.app--message .content:before {
-  -webkit-transform: translateX(-100%);
+  z-index: 100;
+  right: -100%;
 }
 
 .search {
@@ -361,6 +356,7 @@ a {
   max-width: 600px;
   -webkit-animation: fadeIn 0.25s ease;
   padding: 20px 10px;
+  margin: 0 auto;
 }
 
 .chart__hd {
@@ -661,11 +657,11 @@ a {
 .user {
   display: none;
   align-items: center;
+  flex-flow: column;
   width: 100%;
-  min-height: 100px; /* 20px of padding ontop of 80px generated from image inside, weird floating issues caused by flex around an image */
   background-color: #383838;
   display: flex;
-  padding: 10px;
+  padding: 20px 10px;
   z-index: 20;
   position: relative;
   border-bottom: 1px solid #525252;
@@ -695,15 +691,16 @@ a {
 .user__thumb {
   width: 60px;
   height: 60px;
-  margin-right: 20px;
   border-radius: 30px;
   overflow: hidden;
 }
 
 .user__content {
   display: flex;
-  flex-flow: column;
-  justify-content: center;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 .user__title {
@@ -716,12 +713,41 @@ a {
 }
 
 .user__action {
-  padding: 10px 20px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 12px 20px;
   font-weight: bold;
-  margin-left: 40px;
+  /*margin-left: 40px;*/
   border-radius: 4px;
   background-color: rgb(255, 102, 0);
   color: #fff;
+}
+
+.tally {
+  display: flex;
+}
+
+.tally__item {
+  margin-left: 20px;
+  text-align: center;
+}
+
+.tally__item:first-child {
+  margin-left: 0;
+}
+
+.tally__count {
+  color: #fff;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 1;
+}
+
+.tally__type {
+  color: #8F8F8F;
+  font-size: 12px;
+  text-transform: uppercase;
 }
 
 /* SCENES */
@@ -809,6 +835,12 @@ a {
 }
 
 @media only screen and (min-width: 768px) {
+
+  .tally {
+    padding-left: 20px;
+    margin-left: 20px;
+    border-left: 1px solid rgb(80, 80, 80);
+  }
 
   .button:hover {
     background-color: #fff;
@@ -940,16 +972,29 @@ a {
   }
 
   .user {
-    justify-content: center;
+    justify-content: space-between;
     padding: 20px;
+    flex-flow: row;
+  }
+
+  .user__content {
+    justify-content: flex-start;
+    width: auto;
+    margin-bottom: 0;
+  }
+
+  .user__action {
+    width: auto;
+    margin-left: 20px;
   }
 
   .user__title {
     font-size: 22px;
+    line-height: 1;
   }
 
   .user__caption {
-    font-size: 18px;
+    font-size: 14px;
   }
 
 }
