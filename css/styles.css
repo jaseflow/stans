@@ -761,7 +761,7 @@ a {
 }
 
 .message {
-  z-index: 40;
+  z-index: 120;
   position: absolute;
   top: -1200px;
   max-width: 480px;
