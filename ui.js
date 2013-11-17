@@ -51,6 +51,7 @@ $(function() {
     $('.app').addClass('app--message');
     $('#logo__icon').addClass('fa-arrow-up');
     $('#logo__icon').css('-webkit-transform','rotate(-90deg)');
+    _gaq.push(['_trackEvent', 'cosigns', 'click']);
   })
 
   $('.controls__btn').click(function(e) {
