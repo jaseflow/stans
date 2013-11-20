@@ -4,16 +4,64 @@
 		"selected_items":
 		[
 			[
+				"fadeIn",
+				"fadeInDown"
+			],
+			[
+				"search",
+				"search__input"
+			],
+			[
+				"prevIte",
+				"prevItemHeight"
+			],
+			[
+				"top",
+				"topDistance"
+			],
+			[
+				"add",
+				"addItem"
+			],
+			[
+				"transa",
+				"translateY"
+			],
+			[
+				"controls",
+				"controls__btn--active"
+			],
+			[
+				"prev",
+				"prevItemHeight"
+			],
+			[
+				"item",
+				"itemHeight"
+			],
+			[
+				"contro",
+				"controls__btn--active"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"content",
+				"content--charts"
+			],
+			[
+				"shuffle",
+				"shuffle__arrow--up"
+			],
+			[
 				"webk-",
 				"webkit-transform"
 			],
 			[
 				"trans",
 				"translateY"
-			],
-			[
-				"transa",
-				"translateZ"
 			],
 			[
 				"webkit-tran",
@@ -72,10 +120,6 @@
 				"consoles__option--active"
 			],
 			[
-				"add",
-				"addClass"
-			],
-			[
 				"remove",
 				"removeClass"
 			],
@@ -108,10 +152,6 @@
 				"webkit-transition"
 			],
 			[
-				"search",
-				"searchBox"
-			],
-			[
 				"searchBox",
 				"searchBoxClose"
 			],
@@ -128,34 +168,67 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "css/styles.css",
 			"settings":
 			{
-				"buffer_size": 6231,
+				"buffer_size": 17994,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "css/styles.css",
+			"file": "hammer.js",
 			"settings":
 			{
-				"buffer_size": 5849,
-				"line_ending": "Unix"
+				"buffer_size": 12150,
+				"line_ending": "Unix",
+				"name": "/*! Hammer.JS - v1.0.5 - 2013-04-07"
 			}
 		},
 		{
 			"file": "ui.js",
 			"settings":
 			{
-				"buffer_size": 850,
+				"buffer_size": 6075,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "css/font-awesome.css",
+			"file": "fastClick.js",
 			"settings":
 			{
-				"buffer_size": 22707,
+				"buffer_size": 23423,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/animate.css",
+			"settings":
+			{
+				"buffer_size": 51170,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2333,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "user/jaseflow/321414/index.html",
+			"settings":
+			{
+				"buffer_size": 6379,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "user/jaseflow/index.html",
+			"settings":
+			{
+				"buffer_size": 7327,
 				"line_ending": "Unix"
 			}
 		}
@@ -163,9 +236,17 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 96.0,
+		"height": 118.0,
 		"selected_items":
 		[
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
 			[
 				"wrao",
 				"Word Wrap: Toggle"
@@ -255,7 +336,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 435.0
+		"width": 417.0
 	},
 	"console":
 	{
@@ -272,11 +353,25 @@
 	},
 	"file_history":
 	[
+		"/Users/jasoncorbett/Sites/stans/user/jaseflow/index.html",
+		"/Users/jasoncorbett/Sites/stans/index.html",
+		"/Users/jasoncorbett/Sites/stans/img/devilheaven.jpg",
+		"/Users/jasoncorbett/Sites/stans/items.js",
+		"/Users/jasoncorbett/Sites/stans/Stans.sublime-workspace",
+		"/Users/jasoncorbett/Sites/stans/keymaster.js",
+		"/Users/jasoncorbett/Sites/stans/css/font-awesome.css",
+		"/Users/jasoncorbett/Sites/stans/modernizr.js",
+		"/Users/jasoncorbett/Sites/stans/ui.js",
+		"/Users/jasoncorbett/Sites/stans/CNAME",
+		"/Users/jasoncorbett/Sites/stans/jaseflow.html",
+		"/Users/jasoncorbett/Sites/stans/hammer.js",
+		"/Users/jasoncorbett/Sites/stans/finished-chart",
+		"/Users/jasoncorbett/Sites/stans/untitled",
+		"/Users/jasoncorbett/Sites/stans/search",
 		"/Users/jasoncorbett/Sites/stans/css/animate.css",
 		"/Users/jasoncorbett/Sites/stans/recent.html",
 		"/Users/jasoncorbett/Desktop/index.html",
 		"/Users/jasoncorbett/Sites/stans/styles.css",
-		"/Users/jasoncorbett/Sites/stans/ui.js",
 		"/Users/jasoncorbett/Sites/stans/fastClick.js",
 		"/Users/jasoncorbett/Sites/stans/matchMedia.js",
 		"/Users/jasoncorbett/Sites/wedding-static/css/styles.css",
@@ -385,21 +480,7 @@
 		"/Users/jasoncorbett/Sites/ss-swapsies/public/index.html",
 		"/Users/jasoncorbett/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/jasoncorbett/Sites/ss-swapsies/client/views/layout.jade",
-		"/Users/jasoncorbett/Sites/ss-swapsies/client/code/app/jason.coffee",
-		"/Users/jasoncorbett/Sites/ss-swapsies/client/css/font-awesome.css",
-		"/Users/jasoncorbett/Sites/ss-swapsies/client/code/app/fullGameView.coffee",
-		"/Users/jasoncorbett/Sites/ss-swapsies/client/code/app/entry.coffee",
-		"/Users/jasoncorbett/Sites/ss-swapsies/client/templates/game/full.jade",
-		"/Users/jasoncorbett/Sites/ss-swapsies/node_modules/jsdom/node_modules/nwmatcher/lib/prototype/selector_engine.js",
-		"/Users/jasoncorbett/Sites/ss-swapsies/node_modules/ss-hogan/node_modules/hogan.js/wrappers/amd.js.mustache",
-		"/Users/jasoncorbett/Downloads/PageTransitions/css/animations.css",
-		"/Users/jasoncorbett/Sites/ss-swapsies/client/templates/game/autocomplete.jade",
-		"/Users/jasoncorbett/Sites/ss-swapsies/app.js",
-		"/Users/jasoncorbett/Sites/ss-swapsies/server.coffee",
-		"/Users/jasoncorbett/Sites/ss-swapsies/README.md",
-		"/Users/jasoncorbett/Sites/ss-swapsies/client/code/app/gameView.coffee",
-		"/Users/jasoncorbett/Sites/ss-swapsies/node_modules/jquery/node_modules/htmlparser/tests/18-enforce_empty_tags.js",
-		"/Users/jasoncorbett/Sites/ss-swapsies/client/code/libs/matchmedia.js"
+		"/Users/jasoncorbett/Sites/ss-swapsies/client/code/app/jason.coffee"
 	],
 	"find":
 	{
@@ -418,134 +499,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"item__body",
-			"fa fa-times-circle-o",
-			"<div class=\"item__body\">",
+			"landing",
+			"subscribe",
+			"logo {",
+			"user__thumb",
+			"message",
+			"fa-",
+			"script src=\"",
+			"css/",
+			"logo {",
+			"user {",
+			"header {",
+			"-webkit-transform: translate",
+			"chart\"",
 			"header {",
 			"content {",
-			"item:hover",
-			"<div class=\"item__thumb\"",
-			"<div class=\"item__thumb\" style=\"background-image: url(http://userserve-ak.last.fm/serve/500/92119511/The+SWOUP+Serengeti+cover.jpg)\"></div>\n        <h4 class=\"item__title\">\n          <span>The #SWOUP Serengeti</span>\n          <small>Spark Master Tape</small>\n        </h4>",
-			"<div class=\"item__thumb",
-			"search__input",
-			"result {",
-			"</small>\n        </h4>",
-			"caret-square-o",
-			"caret-square",
-			"shuffle__",
-			"  <div class=\"result__thumb\" style=\"background-image: url(http://userserve-ak.last.fm/serve/500/89294613/Watching+Movies+with+the+Sound+Off+PNG.png)\"></div>\n  <h4 class=\"result__title\">\n    <span>Watching Movies with the Sound Off</span>\n    <small>Mac Miller</small>\n  </h4>",
-			"<h4 class=\"result__title\">\n            ",
-			"recent {",
-			"style=\"background-im",
-			"style=\"background-image: url(http://userserve-ak.last.fm/serve/500/91826975/Yeezus.png)\"",
-			"cards {",
-			"user__title",
-			"wall {",
-			"card {",
-			"user__content",
-			"cards {",
-			"app__window {",
-			"card {",
-			"wall {",
-			"order",
-			"cards {",
+			"header {",
+			"share",
 			"user {",
-			"bar__line",
-			"bottom: 0",
-			"20vh",
-			"padding: 20px",
-			"card:before",
-			"thumb",
-			"tjuathumb",
-			"item {",
-			"card {",
-			"hero",
-			"card",
-			"follow",
-			"body {",
-			"user",
-			"recent__tabs",
-			"recent__feed",
-			"recent {",
-			"card {",
-			":after",
-			"0.1",
-			"recent {",
-			"recent__feed",
-			"counter",
-			"content",
-			"count",
-			"counter",
-			"bar",
-			"bars",
-			"/img",
-			"bar__line",
-			"first:child",
-			"recent {",
-			"cards",
-			"sscale",
-			"tally",
-			"<div class=\"recent__thumb\"",
-			"<div class=\"recent__thumb\">",
-			"<div class=\"recent__thumb\">\n                        </div>\n                        <div class=\"recent__deets\">\n                          <h4 class=\"recent__artist\">Drake</h4>\n                          <h5 class=\"recent__album\">Nothing Was The Same</h5>\n                        </div>",
-			"recent {",
-			"user__content:hover",
-			"/img/",
-			"cards {",
-			"card {",
-			"recent {",
 			"content {",
-			"recent_",
-			"recent {",
-			"<div class=\"recent__when\">",
-			"<div class=\"recent__when\">\n                          <p>Playing now</p>\n                        </div>",
-			"recent",
-			"puck {",
-			"recent__active",
-			"user__acti",
-			"recent__nav",
-			"content {",
-			"feed",
-			"bar__canvas",
-			"recent {",
-			"bar__line",
-			"bar__liine",
-			"bar__can",
-			"bar__canvs",
-			"bar__canvs ",
-			"bar__line",
-			"bar {",
-			"user__bar",
-			"content ",
-			"active",
-			"content {",
-			"content",
-			"content {",
-			"content }",
-			"content {",
-			"<li class=\"feed\"",
-			"feed",
-			"note",
-			"content {",
-			"landing ",
-			"3:30pm",
-			"landing",
-			"note {",
-			"map",
-			"landing {",
-			"landing",
+			"user {",
+			"user{",
+			"tally {",
+			"user {",
 			"logo {",
-			"title ",
-			"landing__title",
-			"landing {",
-			"shadow",
-			"landing {",
-			"vh",
-			"hero {",
-			"hero P",
-			"landing {",
-			"32",
-			"landing"
+			"header {",
+			"tally {",
+			"user__title {",
+			"logo {",
+			"fadeIn",
+			"content {",
+			"message {",
+			"content {",
+			"contnet {",
+			"message {",
+			"message",
+			"contnet {",
+			"content {",
+			"input {",
+			"button {",
+			"message {",
+			"chart {",
+			"user {",
+			"chart {",
+			"body {",
+			"search__input",
+			"chart__title",
+			"item {",
+			"share {",
+			"countdown {",
+			"countdown",
+			"share {",
+			"user__title {",
+			"user {",
+			"user__caption {",
+			"item {",
+			"user {",
+			"chart {",
+			"user {",
+			"item {",
+			"titem {",
+			"chart {",
+			"content {",
+			"contnet {",
+			"content {",
+			"chart {",
+			"content {",
+			"item {",
+			"contnet {",
+			"app {",
+			"chart {",
+			"user__thumb",
+			"chart {",
+			", ",
+			"item {",
+			"search",
+			"item {",
+			"height: 112px",
+			"cat",
+			"search__flyout",
+			"share {",
+			"Share your chart",
+			"item {",
+			"item P",
+			"item {",
+			"items {",
+			"item {",
+			"item__body",
+			"item {",
+			"Best",
+			"chart__title",
+			"i",
+			"item__body {",
+			"delete {",
+			"<div class=\"delete\">\n                <i class=\"fa fa-times-circle delete__icon\"></i>\n              </div>",
+			"<div class=\"shuffle\">\n                <i class=\"fa fa-caret-up shuffle__arrow shuffle__arrow--up\"></i>\n                <i class=\"fa fa-caret-down shuffle__arrow shuffle__arrow--down\"></i>\n              </div>",
+			"shffle",
+			"charts",
+			"charts ",
+			" tile__cover--filled",
+			"content {",
+			"share {",
+			"deley",
+			"items {",
+			"autocomplete",
+			"chart {",
+			"control",
+			"sortable",
+			"shuffle",
+			"content {",
+			"search {",
+			"loadNewChart",
+			"content {",
+			"app {",
+			"tile__item",
+			"tile__-item",
+			"tile__cover",
+			"tile__cover {",
+			"logo {",
+			"plus",
+			"loadNewChart",
+			"22px",
+			"search",
+			"app--search",
+			"tile {",
+			"menu {",
+			"controls__btn--active",
+			"rotate",
+			"charts {"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -564,61 +645,61 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 6231,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2422,
-								2422
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 894.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "css/styles.css",
 					"settings":
 					{
-						"buffer_size": 5849,
+						"buffer_size": 17994,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1279,
-								1279
+								1629,
+								1629
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 926.0,
+						"translation.y": 861.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "hammer.js",
+					"settings":
+					{
+						"buffer_size": 12150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								158,
+								158
+							]
+						],
+						"settings":
+						{
+							"auto_name": "/*! Hammer.JS - v1.0.5 - 2013-04-07",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -628,15 +709,15 @@
 					"file": "ui.js",
 					"settings":
 					{
-						"buffer_size": 850,
+						"buffer_size": 6075,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								845,
-								824
+								3206,
+								3206
 							]
 						],
 						"settings":
@@ -647,35 +728,145 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 823.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "css/font-awesome.css",
+					"file": "fastClick.js",
 					"settings":
 					{
-						"buffer_size": 22707,
+						"buffer_size": 23423,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13413,
-								13413
+								286,
+								286
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 13012.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/animate.css",
+					"settings":
+					{
+						"buffer_size": 51170,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								51170,
+								51170
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 459636.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 2333,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1803,
+								1803
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "user/jaseflow/321414/index.html",
+					"settings":
+					{
+						"buffer_size": 6379,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1658,
+								1669
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "user/jaseflow/index.html",
+					"settings":
+					{
+						"buffer_size": 7327,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6283,
+								6283
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2151.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -733,20 +924,84 @@
 		"selected_items":
 		[
 			[
-				"fontawe",
-				"css/font-awesome.css"
+				"inde",
+				"index.html"
 			],
 			[
-				"ui.j",
-				"ui.js"
+				"styles",
+				"css/styles.css"
+			],
+			[
+				"styes",
+				"css/styles.css"
 			],
 			[
 				"styles.css",
 				"css/styles.css"
 			],
 			[
-				"styles",
+				"sty",
 				"css/styles.css"
+			],
+			[
+				"styles.",
+				"css/styles.css"
+			],
+			[
+				"ui",
+				"ui.js"
+			],
+			[
+				"ind",
+				"user/jaseflow/321414/index.html"
+			],
+			[
+				"ui.js",
+				"ui.js"
+			],
+			[
+				"styl",
+				"css/styles.css"
+			],
+			[
+				"style",
+				"css/styles.css"
+			],
+			[
+				"animt",
+				"css/animate.css"
+			],
+			[
+				"styles.cs",
+				"css/styles.css"
+			],
+			[
+				"nde",
+				"index.html"
+			],
+			[
+				"ani",
+				"css/animate.css"
+			],
+			[
+				"styes.",
+				"css/styles.css"
+			],
+			[
+				"",
+				"CNAME"
+			],
+			[
+				"font",
+				"css/font-awesome.css"
+			],
+			[
+				"fontawe",
+				"css/font-awesome.css"
+			],
+			[
+				"ui.j",
+				"ui.js"
 			],
 			[
 				"recent",
@@ -757,28 +1012,8 @@
 				"recent.html"
 			],
 			[
-				"inde",
-				"index.html"
-			],
-			[
-				"styl",
-				"styles.css"
-			],
-			[
 				"fast",
 				"fastClick.js"
-			],
-			[
-				"ui",
-				"ui.js"
-			],
-			[
-				"styles.",
-				"styles.css"
-			],
-			[
-				"ind",
-				"index.html"
 			],
 			[
 				"entry",
@@ -791,10 +1026,6 @@
 			[
 				"entr",
 				"js/entry.js"
-			],
-			[
-				"style",
-				"css/styles.css"
 			],
 			[
 				"jquery",
@@ -815,10 +1046,6 @@
 			[
 				"indd",
 				"views/index.jade"
-			],
-			[
-				"sty",
-				"public/css/styles.styl"
 			],
 			[
 				"index.jad",
@@ -995,10 +1222,6 @@
 			[
 				"sear",
 				"client/css/search.styl"
-			],
-			[
-				"font",
-				"client/static/font-awesome/font-awesome.css"
 			],
 			[
 				"card",
@@ -1211,38 +1434,6 @@
 			[
 				"coll",
 				"client/css/collection.styl"
-			],
-			[
-				"app.s",
-				"client/css/app.styl"
-			],
-			[
-				"col",
-				"client/css/collection.styl"
-			],
-			[
-				"searh",
-				"client/css/search.styl"
-			],
-			[
-				"search.s",
-				"client/css/search.styl"
-			],
-			[
-				"toolbar.jad",
-				"client/views/toolbar.jade"
-			],
-			[
-				"toolar",
-				"client/views/toolbar.jade"
-			],
-			[
-				"butto",
-				"node_modules/jitsu/node_modules/require-analyzer/node_modules/detective/node_modules/burrito/node_modules/uglify-js/test/unit/compress/test/concatstring.js"
-			],
-			[
-				"enty",
-				"client/code/app/entry.coffee"
 			]
 		],
 		"width": 0.0
