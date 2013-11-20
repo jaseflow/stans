@@ -102,7 +102,7 @@ a {
   bottom: 0;
   left: 0;
   right: 0;
-  background-image: url('/img/landing-image.png');
+  background-image: url('/img/landing-image@2x.png');
   background-size: contain;
   background-position: 50% 100%;
   background-repeat: no-repeat;
