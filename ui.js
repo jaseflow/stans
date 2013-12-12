@@ -43,10 +43,16 @@ $(function() {
 
   $('.prompt').click(function(e) {
     e.preventDefault();
-    $('.overlay').css('-webkit-transform','translateX(-100%)')
+    $('.overlay').css({
+      '-webkit-transform' : 'translateX(-100%)',
+      '-moz-transform' : 'translateX(-100%)',
+      'transform' : 'translateX(-100%)'
+    });
     $('#message').css({
         '-webkit-animation' : 'fadeIn 0.5s ease',
-        '-webkit-transform' : 'translateY(1300px)'
+        '-webkit-transform' : 'translateY(1300px)',
+        '-moz-transform' : 'translateY(1300px)',
+        'transform' : 'translateY(1300px)'
     });
     $('.app').addClass('app--message');
     $('#logo__icon').addClass('fa-arrow-up');
